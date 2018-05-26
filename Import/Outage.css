@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .guilds-wrapper .guilds-error::after{
     content: "";
     text-indent: 0%;
