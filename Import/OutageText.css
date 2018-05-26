@@ -7,7 +7,6 @@
     content: "There are ";
 }
 
-
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong {
     font-size: 14px;
 }
