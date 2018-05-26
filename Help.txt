@@ -5,5 +5,5 @@ If you would like a custom image:
 3) The link you add must have "https" at the beginning and something such as ".png" or ".jpg" at the end of the link in order to work.
 
 .guilds-wrapper .guilds-error::after {
-    background-image: url(https://completelyunbelievable.github.io/ChangeOutage/Image/BD%20Logo.png);
+    background-image: url(https://completelyunbelievable.github.io/ChangeOutage/Image/BD%20Logo.png) !important;
 }
