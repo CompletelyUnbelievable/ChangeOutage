@@ -1,0 +1,8 @@
+#app-mount > div.tooltips div.tooltip-right.tooltip-red {
+    font-size: 0;
+}
+
+#app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {
+    font-size: 14px;
+    content: "something";
+}
