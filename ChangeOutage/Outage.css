@@ -19,7 +19,7 @@
 }
 
 
-/*For changing the guild outage tool tip*/
+/*For changing the guild outage tool tip text.*/
 #app-mount > div.tooltips div.tooltip-right.tooltip-red {
     font-size: 0;
 }
