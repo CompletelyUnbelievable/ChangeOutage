@@ -3,4 +3,4 @@ Changes the exclamation point in Discord guild outages to the Better Discord log
 
 I made this page just to save the work somewhere for someone else to use, because I would loose it otherwise.
 
-![alt text](ChangeOutage/Image/image.png)
+![What it Looks like in the dark theme](https://completelyunbelievable.github.io/ChangeOutage/Image/image.png)
