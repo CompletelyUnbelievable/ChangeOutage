@@ -1,4 +1,4 @@
 If you would like a custom image or text:
 
 2) Add the css below to a theme or in your custom css.
-3) The link for the background image requires "https" at the beginning and something such as ".png" or ".jpg" at the end of the link in order to work.
+3) Replace the link for for the background image, the link requires "https" at the beginning and something such as ".png" or ".jpg" at the end of the link in order to work.
