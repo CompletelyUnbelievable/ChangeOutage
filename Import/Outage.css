@@ -1,7 +1,7 @@
 .guilds-wrapper .guilds-error::after{
     content: "";
     text-indent: 0%;
-    background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/HollywoodUndead/master/Images/BD%20Logo.png);
+    background-image: url(https://completelyunbelievable.github.io/ChangeOutage/Image/BD%20Logo.png);
     background-size: 25px 25px;
     position: absolute;
     right: 0;
