@@ -1,0 +1,9 @@
+If you would like a custom image:
+
+1) Use the ChangeOutage theme. (Or if you are a developer, import the css in the Imports folder.)
+2) Add the css below to a theme or in your custom css.
+3) The link you add must have "https" at the beginning and something such as ".png" or ".jpg" at the end of the link in order to work.
+
+.guilds-wrapper .guilds-error::after {
+    background-image: url(https://completelyunbelievable.github.io/ChangeOutage/Image/BD%20Logo.png);
+}
