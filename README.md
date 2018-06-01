@@ -1,1 +1,1 @@
-Welcome to the index for Better Discord theme development. This will be where I store snippets of CSS code for various different projects.
+Welcome to the index for Better Discord theme development. This will be where I store snippets of CSS code for various different projects. The help I give out might end up here so that other theme developers can use it, as well to save time with repeated questions.
