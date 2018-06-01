@@ -6,4 +6,4 @@ If a theme does not show up on the theme menu after restarting discord and verif
 
 Theme meta is one of the major things that allows Better discord themes to be used and understood by itself defining names, descriptions, versions, etc. If a theme is without a meta, then it is not a theme, it is only a bunch of stylings pertaining to better discord.
 
-Some themes will have special instructions in their meta that mean something else, such as "/n" being an instruction to goto the next line. These instructions are carried over from different coding languages, and are completely valid in the theme meta without breaking the theme.
+Some themes will have special instructions in their meta that mean something else, such as "/n" being an instruction to go to the next line. These instructions are carried over from different coding languages, and are completely valid in the theme meta without breaking the theme.
