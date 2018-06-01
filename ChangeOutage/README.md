@@ -6,3 +6,5 @@ Changes the exclamation point in Discord guild outages to the Better Discord log
 This is not a theme so it will not be getting any bug support actively, discord would have to make major changes in order for this to break. It should be understood by this point that other themes and plugins may interfere with this, and restarting discord can fix those issues as well.
 
 If I get contacted about repairing an issue with this, then I might take a look and see what can be done. Even if I do not provide help, you could also ask the #css-and-themes text channels in the Better Discord guilds (server).
+
+Discord user tehbasshunter (66043140208857088) asked if the text could be replaced with an image on the guild outage element, I also left the ability to replace the text as well.
