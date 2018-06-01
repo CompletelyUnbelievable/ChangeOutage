@@ -2,7 +2,7 @@
 .guilds-wrapper .guilds-error::after {
     font-size: 20px;
     content: "";
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
+    background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/BD%20Logo.png");
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: center; 
@@ -26,7 +26,7 @@
 
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {
     font-size: 14px;
-    content: "There are ";
+    content: "There are "; /*Text before the number of guilds with outages.*/
 }
 
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong {
@@ -35,5 +35,5 @@
 
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong:after {
     font-size: 14px;
-    content: " Guild(s) with outages.";
+    content: " Guild(s) with outages."; /*Text after the number of guilds with outages.*/
 }
