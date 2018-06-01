@@ -28,7 +28,7 @@
 
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {
     font-size: 14px;
-    content: "There are ";
+    content: "There are "; /*Text before the number of guilds with outages.*/
 }
 
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong {
@@ -37,5 +37,5 @@
 
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong:after {
     font-size: 14px;
-    content: " Guild(s) with outages.";
+    content: " Guild(s) with outages."; /*Text after the number of guilds with outages.*/
 }
