@@ -1,0 +1,42 @@
+//META{"name":"ChangeOutage","description":"Changes the exclamation point in Discord guild outages to the Better Discord logo. It's sad if you see this often enough that you want to be able to change it.","author":"CompletelyUnbelievable","version":"1.0"}*//
+
+
+/*For changing the guild outage exclamation point to a different image or text.*/
+.guilds-wrapper .guilds-error::after {
+    font-size: 20px;
+    content: "";
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.guilds-wrapper .guilds-error {
+    font-size: 0;
+}
+
+
+/*For changing the guild outage tool tip text.*/
+#app-mount > div.tooltips div.tooltip-right.tooltip-red {
+    font-size: 0;
+}
+
+#app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {
+    font-size: 14px;
+    content: "There are ";
+}
+
+#app-mount > div.tooltips div.tooltip-right.tooltip-red strong {
+    font-size: 14px;
+}
+
+#app-mount > div.tooltips div.tooltip-right.tooltip-red strong:after {
+    font-size: 14px;
+    content: " Guild(s) with outages.";
+}
