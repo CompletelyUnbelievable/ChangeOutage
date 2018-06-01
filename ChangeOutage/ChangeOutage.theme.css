@@ -1,6 +1,5 @@
 //META{"name":"ChangeOutage","description":"Changes the exclamation point in Discord guild outages to the Better Discord logo. It's sad if you see this often enough that you want to be able to change it.","author":"CompletelyUnbelievable","version":"1.0"}*//
 
-
 /*For changing the guild outage exclamation point to a different image or text.*/
 .guilds-wrapper .guilds-error::after {
     font-size: 20px;
