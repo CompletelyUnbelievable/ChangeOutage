@@ -6,7 +6,7 @@
 /*replaces the discord logo svg (image) with another image*/
 #app-mount > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm > svg {
     content: "";
-    background-image: url("");
+    background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/DiscordLogo/Images/DiscordLogo.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100px;
