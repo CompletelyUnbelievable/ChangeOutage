@@ -1,0 +1,51 @@
+.guilds-wrapper .guilds .guild, .guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .friends-icon {
+    height: 25px; /*50px*/
+    width: 25px; /*50px*/
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 7px !important; /*14px*/
+    text-align: center; /*NA*/
+    vertical-align: middle; /*NA*/
+}
+
+.guilds-wrapper {
+    width: 45px; /*70px*/
+}
+
+.guilds-wrapper .guilds .friends-icon {
+    background-size: 16px 14px; /*32px 28px*/
+}
+
+.guilds-wrapper .guilds .friends-online {
+    width: 25px; /*50px*/
+    font-size: 5px; /*10px*/
+}
+
+.guilds-wrapper .guild-separator {
+    width: 25px /*50px*/
+}
+
+.guilds-wrapper .guilds-add-inner {
+    font-size: 25px; /*100%*/
+    text-align: center; /*NA*/
+    vertical-align: middle; /*NA*/
+    top: -19px; /*-1px*/
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    line-height: 25px; /*50px*/
+}
+
+.badge {
+    font-size: 6px; /*12px*/
+    line-height: 6px; /*12px*/
+    padding: 1.5px 3px; /*3px 6px*/
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    height: 5px; /*10px*/
+    margin-top: -3px; /*-6px*/
+}
