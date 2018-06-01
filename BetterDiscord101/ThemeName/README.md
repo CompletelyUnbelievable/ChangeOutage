@@ -1,4 +1,4 @@
-If a theme is not showing up on your list of themes in your Better Discord settings, then this is the first thing you should check.
+If a theme is not showing up on your list of themes in your Better Discord settings, then making sure it is saved correctly is the first thing one should check. If this does not work see my folder on ThemeMeta to explain another reason why it might not be showing up.
 
 It is a common mistake to save the theme file incorrectly. The theme file type should be, "CSS File", with a name such as "TheThemeName.theme".
 
