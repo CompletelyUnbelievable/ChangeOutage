@@ -4,7 +4,7 @@
 .guilds-wrapper .guilds-error::after {
     font-size: 20px;
     content: "";
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
+    background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/BD%20Logo.png");
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: center; 
