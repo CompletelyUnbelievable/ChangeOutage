@@ -9,4 +9,4 @@ Some themes will have special instructions in their meta that mean something els
 Theme meta should look something like this:
 //META{"name":"TheName","description":"TheDescription","author":"TheAuthor","version":"1.0"}*//
 
-Sometimes it will have curly brackets/braces at the end of the meta, such as "{}".
+Sometimes it will have curly brackets/braces at the end of the meta, such as "{}". According to Observer of Time (134312541869441035), "The meta lines confuse some editors so that's kind of a workaround." Meaning that they serve no actual use at all other than the theme developer's sanity. I'll be looking for more insight to it and add it here.
