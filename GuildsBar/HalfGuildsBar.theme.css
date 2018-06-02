@@ -86,3 +86,11 @@
     right: -3px; /*-6px*/
     top: -3px; /*-6px*/
 }
+
+#app-mount .guilds-wrapper > div.unread-mentions-indicator-top > div.unread-1xRYoj {
+    transform: translateY(-300%) !important; /*-150%*/
+}
+
+.guilds-wrapper > div.unread-mentions-indicator-top > div.active-1SSsBb {
+    transform: translateY(0%) !important; /*0%*/
+}
