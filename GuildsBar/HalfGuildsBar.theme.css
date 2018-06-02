@@ -8,7 +8,7 @@
 .guilds-wrapper .guilds .guild .guild-inner a {
     background-size: 100% 100%; /*NA*/
     background-repeat: no-repeat; /*NA*/
-    font-size: 7px !important; /*14px*/
+    font-size: 7px; /*14px*/
     text-align: center; /*NA*/
     vertical-align: middle; /*NA*/
 }
@@ -87,6 +87,7 @@
     top: -3px; /*-6px*/
 }
 
+/*These must have "!important" in order to work.*/
 #app-mount .guilds-wrapper > div.unread-mentions-indicator-top > div.unread-1xRYoj {
     transform: translateY(-300%) !important; /*-150%*/
 }
