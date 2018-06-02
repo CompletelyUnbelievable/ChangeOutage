@@ -1,0 +1,88 @@
+//META{"name":"Half Sized Guilds Bar","description":"Decreases everything within the guilds area by about half.","author":"CompletelyUnbelievable","version":"1.0"}*//
+
+.guilds-wrapper .guilds .guild, .guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .friends-icon {
+    height: 25px; /*50px*/
+    width: 25px; /*50px*/
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    background-size: 100% 100%; /*NA*/
+    background-repeat: no-repeat; /*NA*/
+    font-size: 7px !important; /*14px*/
+    text-align: center; /*NA*/
+    vertical-align: middle; /*NA*/
+}
+
+.guilds-wrapper {
+    width: 45px; /*70px*/
+}
+
+.guilds-wrapper .guilds .friends-icon {
+    background-size: 16px 14px; /*32px 28px*/
+}
+
+.guilds-wrapper .guilds .friends-online {
+    width: 25px; /*50px*/
+    font-size: 5px; /*10px*/
+}
+
+.guilds-wrapper .guild-separator {
+    width: 25px /*50px*/
+}
+
+.guilds-wrapper .guilds-add-inner {
+    font-size: 25px; /*100%*/
+    text-align: center; /*NA*/
+    vertical-align: middle; /*NA*/
+    top: -19px; /*-1px*/
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    line-height: 25px; /*50px*/
+}
+
+.guilds-wrapper .badge {
+    font-size: 6px; /*12px*/
+    line-height: 6px; /*12px*/
+    padding: 1.5px 3px; /*3px 6px*/
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    height: 5px; /*10px*/
+    margin-top: -3px; /*-6px*/
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+    height: 20px; /*40px*/
+    margin-top: -10px; /*-20px*/
+}
+
+.guilds-wrapper .guilds-error {
+    font-size: 10px; /*20px*/
+    width: 25px; /*50px*/
+    height: 25px; /*50px*/
+    line-height: 23px; /*46px*/
+}
+
+.guilds-wrapper .unread-mentions-indicator-bottom, .guilds-wrapper .unread-mentions-indicator-top {
+    height: 10px; /*20px*/
+}
+
+.guilds-wrapper .bar-30k2ka {
+    font-size: 5px; /*11px*/
+    height: 10px; /*20px*/
+    line-height: 7px /*14px*/
+}
+
+.guilds-wrapper .icon-2aINcz {
+    height: 6px; /*12px*/
+    width: 6px; /*12px*/
+}
+
+.guilds-wrapper .guilds .guild.audio .guild-inner:after, .guilds-wrapper .guilds .guild.video .guild-inner:after {
+    background-size: 8px; /*16px*/
+    height: 12px; /*24px*/
+    width: 12px; /*24px*/
+    right: -3px; /*-6px*/
+    top: -3px; /*-6px*/
+}
