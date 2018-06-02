@@ -84,3 +84,7 @@
     right: -3px; /*-6px*/
     top: -3px; /*-6px*/
 }
+
+.guilds-wrapper > div.unread-mentions-indicator-top > div {
+    transform: translateY(-300%) !important; /*-150%*/
+}
