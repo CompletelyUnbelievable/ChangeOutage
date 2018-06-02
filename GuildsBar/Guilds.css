@@ -1,3 +1,4 @@
+
 .guilds-wrapper .guilds .guild, .guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .friends-icon {
     height: 25px; /*50px*/
     width: 25px; /*50px*/
@@ -39,7 +40,7 @@
     line-height: 25px; /*50px*/
 }
 
-.badge {
+.guilds-wrapper .badge {
     font-size: 6px; /*12px*/
     line-height: 6px; /*12px*/
     padding: 1.5px 3px; /*3px 6px*/
@@ -53,4 +54,26 @@
 .guilds-wrapper .guilds .guild.selected:before {
     height: 20px; /*40px*/
     margin-top: -10px; /*-20px*/
+}
+
+.guilds-wrapper .guilds-error {
+    font-size: 10px; /*20px*/
+    width: 25px; /*50px*/
+    height: 25px; /*50px*/
+    line-height: 23px; /*46px*/
+}
+
+.guilds-wrapper .unread-mentions-indicator-bottom, .guilds-wrapper .unread-mentions-indicator-top {
+    height: 10px; /*20px*/
+}
+
+.guilds-wrapper .bar-30k2ka {
+    font-size: 5px; /*11px*/
+    height: 10px; /*20px*/
+    line-height: 7px /*14px*/
+}
+
+.guilds-wrapper .icon-2aINcz {
+    height: 6px; /*12px*/
+    width: 6px; /*12*/
 }
