@@ -74,5 +74,13 @@
 
 .guilds-wrapper .icon-2aINcz {
     height: 6px; /*12px*/
-    width: 6px; /*12px*/
+    width: 6px; /*12*/
+}
+
+.guilds-wrapper .guilds .guild.audio .guild-inner:after, .guilds-wrapper .guilds .guild.video .guild-inner:after {
+    background-size: 8px; /*16px*/
+    height: 12px; /*24px*/
+    width: 12px; /*24px*/
+    right: -3px; /*-6px*/
+    top: -3px; /*-6px*/
 }
