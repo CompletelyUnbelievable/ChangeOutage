@@ -6,7 +6,7 @@
 
 3) <a href="#ApplyingBA">Applying The 'before' And 'after' Pseudo Elements</a>
 
-4) <a href="OtherSE">The Other Pseudo Elements</a>
+4) <a href="#OtherSE">The Other Pseudo Elements</a>
 
 <a name="WhatAreSE"><h2>What Are Pseudo Elements?</h2></a>
 
