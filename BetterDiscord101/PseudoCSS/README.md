@@ -4,6 +4,6 @@ If there is an element that you cannot seem to modify, specifically cannot see t
 
 Here is a short image guide on how to enable and locate pseudo elements in the developer tools menu:
 
-![In the developer tools menu goto the setting menu](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu.png)
-![Click settings from the drop down menu](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png)
-![Enable user agent shadow DOM under the elements header so that you can now view pseudo elements](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png)
+![In the developer tools menu goto the setting menu](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu.png | width=100)
+![Click settings from the drop down menu](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png | width=100)
+![Enable user agent shadow DOM under the elements header so that you can now view pseudo elements](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png | width=100)
