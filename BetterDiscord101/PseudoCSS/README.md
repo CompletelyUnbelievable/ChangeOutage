@@ -6,7 +6,9 @@ Here is a short image guide on how to enable pseudo elements in the developer to
 
 In the developer tools menu goto the setting menu:
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu.png" height="400">
+
 Click settings from the drop down menu:
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png" height="400">
+
 Enable user agent shadow DOM under the elements header so that you can now view pseudo elements
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png" height="400">
