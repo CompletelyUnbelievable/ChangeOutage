@@ -5,10 +5,10 @@ If there is an element that you cannot seem to modify, specifically cannot see t
 Here is a short image guide on how to enable pseudo elements in the developer tools menu:
 
 In the developer tools menu goto the setting menu:
-<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu.png" height="400">
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu.png" height="200">
 
 Click settings from the drop down menu:
-<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png" height="400">
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png" height="200">
 
 Enable user agent shadow DOM under the elements header so that you can now view pseudo elements
-<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png" height="400">
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png" height="200">
