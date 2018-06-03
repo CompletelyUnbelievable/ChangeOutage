@@ -21,4 +21,4 @@ Enable user agent shadow DOM under the elements header so that you can now view 
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png" height="200">
 
 
-<a name="ApplyingPEV" href="https://www.w3schools.com/css/css_pseudo_elements.asp">Most information needed to apply this information will be pulled from here, at least in reguards on how to use this information.</a>
+<a name="ApplyingPEV" href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">Most information needed to apply this information will be pulled from here, at least in reguards on how to use this information.</a>
