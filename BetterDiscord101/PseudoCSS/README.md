@@ -26,4 +26,6 @@ When it comes to the before and after elements they always require content as a 
 
 The before and after elements are extremely useful in limited situations, one such situation is when you are confined to only modifing the CSS or making a javascript plugin. Since javascript requires more from the developer, whatever can be done through CSS alone will be done through CSS. <a href="https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/ChangeOutage/raw/Outage.css">Take a look at the CSS I wrote to change both the contents and insert an image to the discord outage area</a>, before and after elements are used to both remove and add both text and images all from the CSS itself.
 
+![Puts the Better Discord Logo inside the outage symbol or area](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/image.png)
+
 <h3>To be continued</h3>
