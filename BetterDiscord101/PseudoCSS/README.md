@@ -20,4 +20,6 @@ As you could see there was a "::before" element, which I added, as part of the e
 
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/PseudoElementExample2.png" height="200px">
 
+What is being pointed out here is that the scrollbar, though it is a pseudo element, does not add any element to the element tab. On the other hand the before pseudo element does get rendered in the element tab, even though it is a style that was added through CSS.
+
 <h3>To be continued</h3>
