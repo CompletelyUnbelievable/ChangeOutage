@@ -10,7 +10,7 @@
 
 They modify a specific part of an element. <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">[?]</a>
   
-If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are are unique to the browser, discord is based off either the Google Chrome or Chromium browsers to it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are not the subject of this material.
+If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are are unique to the browser, discord is based off either the Google Chrome or Chromium browsers so it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are not the subject of this material.
 
 <a name="ApplyingPE"><h2>Applying Pseudo Elements</h2></a>
 
