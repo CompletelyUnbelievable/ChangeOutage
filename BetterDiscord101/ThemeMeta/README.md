@@ -4,9 +4,9 @@
 
 2) <a href="#METALook">What Theme META Looks Like</a>
 
-3) <a href="#ApplyingBA">placeholder</a>
+3) <a href="#METALookBBD">What Bandaged Better Discord Theme META Looks Like</a>
 
-4) <a href="#OtherPE">placeholder</a>
+4) <a href="#METACurly">Curly Brackets/Braces after META</a>
 
 <a name="WhatMETA"><h2>What Is Wrong With My Theme?</h2></a>
 
@@ -20,6 +20,12 @@ Some themes will have special instructions in their meta that mean something els
 <a name="METALook"><h2>What Theme META Looks Like</h2></a>
 Theme meta should look something like this:
 //META{"name":"TheName","description":"TheDescription\nNewLine","author":"TheAuthor","version":"1.0"}*//
+
+<a name="METALookBBD"><h2>What Bandaged Better Discord Theme META Looks Like</h2></a>
+
+Placeholder.
+
+<a name="METACurly"><h2>Curly Brackets/Braces after META</h2></a>
 
 Sometimes it will have curly brackets/braces at the end of the meta, such as "{}".
 
