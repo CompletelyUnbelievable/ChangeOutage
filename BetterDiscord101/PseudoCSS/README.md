@@ -4,15 +4,17 @@
 
 2) <a href="#ApplyingPE">Applying pseudo elements</a>
 
-<h2>What Are Pseudo Elements?</h2>
+3) <a href="#ApplyingBA">Applying The 'before' And 'after' Pseudo Elements</a>
 
-<a name="WhatAreSE">They modify a specific part of an element. <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">[?]</a>
+<a name="WhatAreSE"><h2>What Are Pseudo Elements?</h2></a>
+
+They modify a specific part of an element. <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">[?]</a>
   
-If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are are unique to the browser, discord is based off either the Google Chrome or Chromium browsers to it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are not the subject of this material.</a>
+If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are are unique to the browser, discord is based off either the Google Chrome or Chromium browsers to it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are not the subject of this material.
 
-<h2>Applying Pseudo Elements</h2>
+<a name="ApplyingPE"><h2>Applying Pseudo Elements</h2></a>
 
-<a name="ApplyingPE" href="https://www.w3schools.com/css/css_pseudo_elements.asp">Most information needed to apply this information will be pulled from here, at least in reguards on how to use this information.</a>
+<a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Most information needed to apply this information will be pulled from here, at least in reguards on how to use this information.</a>
 
 As for pseudo element within discord they are typically found at the bottom of user styles, for example here is a scrollbar element for the message wrapper:
 
@@ -23,6 +25,8 @@ As you could see there was a "::before" element, which I added, as part of the e
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/PseudoElementExample2.png" height="200px">
 
 What is being pointed out here is that the scrollbar, though it is a pseudo element, does not add any element to the element tab. On the other hand the before pseudo element does get rendered in the element tab, even though it is a style that was added through CSS. This distinction is very important when it comes to pseudo elements, because you would otherwise be searching for an element that cannot be seen. That, or you weren't looking out for a "::before" or "::after" element that could have been what you were looking for.
+
+<a name="ApplyingBA"><h2>Applying The 'before' And 'after' Pseudo Elements</h2></a>
 
 When it comes to the before and after elements they always require content as a style even if that content does not contain anything. If it does not contain content then the before and after elements will not be rendered at all.
 
