@@ -14,4 +14,6 @@
 
 As for pseudo element within discord they are typically found at the bottom of user styles, for example here is a scrollbar element for the message wrapper:
 
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/PseudoElementExample.png" height="200px">
+
 <h3>To be continued</h3>
