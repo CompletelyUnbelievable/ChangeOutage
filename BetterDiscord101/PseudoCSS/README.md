@@ -6,7 +6,7 @@
 
 <h2>What Are Pseudo Elements?</h2>
 
-<a name="WhatAreSE">If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are are unique to the browser, discord is based off either the Google Chrome or Chromium browsers to it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are a listed at the end of the page linked below in the applying pseudo elements section.</a>
+<a name="WhatAreSE">If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are are unique to the browser, discord is based off either the Google Chrome or Chromium browsers to it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are not the subject of this material.</a>
 
 <h2>Applying Pseudo Elements</h2>
 
