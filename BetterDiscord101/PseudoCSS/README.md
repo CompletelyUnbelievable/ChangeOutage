@@ -34,6 +34,6 @@ The before and after elements are extremely useful in limited situations, one su
 
 ![Puts the Better Discord Logo inside the outage symbol or area](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/image.png)
 
-Placeholder.
+As powerful as these pseudo elements may seem, there are things that they cannot do. To learn the limitations it would be best to try it for yourself, and ask around. People might even give you a way to get around it in a way that you'd never thought of.
 
 <h3>To be continued</h3>
