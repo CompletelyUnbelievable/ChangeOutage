@@ -20,6 +20,8 @@ As you could see there was a "::before" element, which I added, as part of the e
 
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/PseudoElementExample2.png" height="200px">
 
-What is being pointed out here is that the scrollbar, though it is a pseudo element, does not add any element to the element tab. On the other hand the before pseudo element does get rendered in the element tab, even though it is a style that was added through CSS.
+What is being pointed out here is that the scrollbar, though it is a pseudo element, does not add any element to the element tab. On the other hand the before pseudo element does get rendered in the element tab, even though it is a style that was added through CSS. This distinction is very important when it comes to pseudo elements, because you would otherwise be searching for an element that cannot be seen. That, or you weren't looking out for a "::before" or "::after" element that could have been what you were looking for.
+
+When it comes to the before and after elements they always require content as a style even if that content does not contain anything. If it does not contain content then the before and after elements will not be rendered at all.
 
 <h3>To be continued</h3>
