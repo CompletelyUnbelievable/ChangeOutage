@@ -1,6 +1,6 @@
 <h1>Index:</h1>
 
-1) <a href="#WhatMETA">What Is Theme META</a>
+1) <a href="#WhatMETA">What Is Wrong With My Theme</a>
 
 2) <a href="#METALook">What Theme META Looks Like</a>
 
@@ -8,7 +8,7 @@
 
 4) <a href="#OtherPE">placeholder</a>
 
-<a name="WhatMETA"><h2>What Is Theme META?</h2></a>
+<a name="WhatMETA"><h2>What Is Wrong With My Theme?</h2></a>
 
 If a theme does not show up on the theme menu after restarting discord and verifying the Better Discord install there are two causes and should be checked in this order:
 1) The name of the theme file is incorrect (see the ThemeName folder for instructions)
