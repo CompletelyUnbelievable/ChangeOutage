@@ -8,4 +8,6 @@ Here is a short image guide on how to enable and locate pseudo elements in the d
 ![Click settings from the drop down menu](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png =250x250)
 ![Enable user agent shadow DOM under the elements header so that you can now view pseudo elements](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png =250x250)
 
-<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png" width="400" height="790">
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu.png" width="400" height="400">
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu2.png" width="400" height="400">
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/SettingsMenu3.png" width="400" height="400">
