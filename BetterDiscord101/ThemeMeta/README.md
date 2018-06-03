@@ -19,6 +19,7 @@ Theme meta is one of the major things that allows Better discord themes to be us
 Some themes will have special instructions in their meta that mean something else, such as "\n" being an instruction to go to the next line. These instructions are carried over from different coding languages, and are completely valid in the theme meta without breaking the theme.
 <a name="METALook"><h2>What Theme META Looks Like</h2></a>
 Theme meta should look something like this:
+
 //META{"name":"TheName","description":"TheDescription\nNewLine","author":"TheAuthor","version":"1.0"}*//
 
 <a name="METALookBBD"><h2>What Bandaged Better Discord Theme META Looks Like</h2></a>
