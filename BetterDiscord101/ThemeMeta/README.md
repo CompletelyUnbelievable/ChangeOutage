@@ -24,7 +24,7 @@ Theme meta should look something like this:
 
 <a name="METALookBBD"><h2>What Bandaged Better Discord Theme META Looks Like</h2></a>
 
-Bandaged Better Discord added two new thing to the meta that allows one to link to one's github page or the source of the document:
+<a href="https://github.com/rauenzi/BetterDiscordApp/#pluginsthemes-related">Bandaged Better Discord added two new thing to the meta that allows one to link to one's github page or the source of the document:</a>
 
 //META{"name":"TheName","description":"TheDescription\nNewLine","author":"TheAuthor","version":"1.0","source":"URLHere","website":"URLHere"}*//
 
