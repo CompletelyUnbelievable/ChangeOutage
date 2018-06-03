@@ -40,6 +40,8 @@ As powerful as these pseudo elements may seem, there are things that they cannot
 
 <a name="OtherPE"><h2>The Other Pseudo Elements</h2></a>
 
-Placeholder.
+The other pseudo elements listed are: 'first-letter', 'first-line', 'selection'. It is important to know that there is such ability to do things like they can, but they are not important in the grand scheme of things. There are very few times that these would need to be used, even less than the 'before' and 'after' pseudo elements.
+
+There are other pseudo elements that are on a browser by browser basis that are useful but either fall to the same issue or due to obscurity. I would suggest looking up documentation for pseudo elements or unique styles on a browser by browser basis and see where they can be applied.
 
 <h3>To be continued</h3>
