@@ -34,6 +34,6 @@ Sometimes it will have curly brackets/braces at the end of the meta, such as "{}
 
 According to Observer of Time (134312541869441035), "The meta lines confuse some editors so that's kind of a workaround." Meaning that they serve no actual use at all other than the theme developer's sanity.
 
-According to Lost (392498266161414144), "[The] meta without brackets [seems to] make [the] editor ignore first rule-set," meaning that it will ignore the first selector as well as its declarations. Though I have never experienced what Lost claims with or without them, keep in mind that this might be true in some cases.
+According to Lost (392498266161414144), "[The] meta without brackets [seems to] make [the] editor ignore first rule-set," <a href="https://www.w3schools.com/css/css_syntax.asp">meaning that it will ignore the first selector as well as its declarations.</a> Though I have never experienced what Lost claims with or without them, keep in mind that this might be true in some cases.
 
 I'll be looking for more insight to it and add it here.
