@@ -16,4 +16,8 @@ As for pseudo element within discord they are typically found at the bottom of u
 
 <img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/PseudoElementExample.png" height="200px">
 
+As you could see there was a "::before" element, which I added, as part of the example. Lets see how it looks as an element:
+
+<img src="https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/BetterDiscord101/PseudoCSS/Images/PseudoElementExample2.png" height="200px">
+
 <h3>To be continued</h3>
