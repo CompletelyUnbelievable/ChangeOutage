@@ -1,8 +1,8 @@
 <h1>Index:</h1>
 
-1) <a href="#WhatAreSE">What are pseudo elements</a>
+1) <a href="#WhatAreSE">What Are Pseudo Elements</a>
 
-2) <a href="#ApplyingPE">Applying pseudo elements</a>
+2) <a href="#ApplyingPE">Applying Pseudo Elements</a>
 
 3) <a href="#ApplyingBA">Applying The 'before' And 'after' Pseudo Elements</a>
 
