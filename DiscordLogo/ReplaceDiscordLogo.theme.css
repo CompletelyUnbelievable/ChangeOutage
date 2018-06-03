@@ -1,4 +1,4 @@
-//META{"name":"Replace Discord Logo","description":."Replaces the Discord Logo in the top right with a different discord logo."author":"CompletelyUnbelievable","version":"1.0"}*//
+//META{"name":"Replace Discord Logo","description":"Replaces the Discord Logo in the top right with a different discord logo.","author":"CompletelyUnbelievable","version":"1.0"}*//
 
 /*removes the discord logo svg (image)*/
 #app-mount > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm > svg > path {
