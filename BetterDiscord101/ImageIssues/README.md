@@ -2,5 +2,5 @@
 
 <div>User BloodPSTL (118854717370531846) was having issues getting an image to work on a modified version of the Dark Matter theme, this show why images might not be centered correctly with CSS.</div><br>
 
-This is what it looks like, it is aligned to the left:
+This is what it looks like, it is aligned to the left starting from where the text is:
 <div><img src="https://i.imgur.com/bRMaNZT.gif"></div>
