@@ -86,6 +86,10 @@
 	top: -3px; /*-6px*/
 }
 
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+	line-height: 25px; /*50px*/
+}
+
 /*These must have "!important" in order to work.*/
 #app-mount .guilds-wrapper > div.unread-mentions-indicator-top > div.unread-1xRYoj {
 	transform: translateY(-300%) !important; /*-150%*/
@@ -97,10 +101,6 @@
 
 .guilds-wrapper .guilds .guild .guild-inner a {
 	font-size: 7px !important; /*14px*/
-}
-
-.noIcon-1a_FrS.iconSizeLarge-161qtT {
-	line-height: 25px; /*50px*/
 }
 
 .guilds-wrapper .guilds .guild-icon {
