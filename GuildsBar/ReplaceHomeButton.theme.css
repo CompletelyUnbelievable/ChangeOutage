@@ -2,7 +2,7 @@
 
 /*For replacing the background, just replace the url in-between the parenthesis. If you are using a rather solid image, not an icon as in this example, then the background-size property will need to be changed to something else.*/
 #app-mount .guilds-wrapper .guilds .home-icon {
-	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogoOutline4px.png);
+	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png);
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -11,4 +11,15 @@
 /*Hides the discord svg image from the home button, this could be used to recolor it as well.*/
 #app-mount .guild-inner > a > svg > g > use {
 	fill: transparent;
+}
+
+/*Changes the color of the home button on hover, requires importance.*/
+.guild:nth-child(1) > .guild-inner:hover {
+	transition: background-color 0.5s ease; /* "0.5s" changes how fast the background color changes when hovered in seconds.*/
+	background-color: red !important;
+}
+
+/*Sets the initial color to override the JS color transition, requires importance. Unless you are changing the origional background color then this does not need to be changed.*/
+.guild:nth-child(1) > .guild-inner {
+	background-color: rgb(47, 49, 54) !important;
 }
