@@ -1,0 +1,14 @@
+/*Un-muted channel category colors*/
+#app-mount .iconCollapsed-3hFp_8, #app-mount .iconDefault-3Gr8d2, #app-mount .nameCollapsed-34uFWo, #app-mount .nameDefault-2DI02H {
+    color: green;
+}
+
+/*Muted channel category colors*/
+#app-mount .iconMuted-1HVBGH, #app-mount .nameMuted-1MCOt4 {
+    color: orange;
+}
+
+/*Color of all channel categories on Hover*/
+#app-mount .iconHovered-2L3-fB, #app-mount .iconHoveredCollapsed-3caIIZ, #app-mount .nameHovered-1gxhWH, #app-mount .nameHoveredCollapsed-2orEWB {
+    color: red;
+}
