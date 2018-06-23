@@ -2,7 +2,7 @@
 
 /*For replacing the background, just replace the url in-between the parenthesis. If you are using a rather solid image, not an icon as in this example, then the background-size property will need to be changed to something else.*/
 #app-mount .guilds-wrapper .guilds .home-icon {
-	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/BD%20Logo.png);
+	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png);
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 	background-position: center;
