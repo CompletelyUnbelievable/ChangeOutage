@@ -1,1 +1,14 @@
-placeholder
+//META{"name":"ReplaceHomeButton","description":"Allows easy replacement for the background of the home button.","author":"CompletelyUnbelievable","version":"Alpha","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+
+/*For replacing the background, just replace the url in-between the parenthesis. If you are using a rather solid image, not an icon as in this example, then the background-size property will need to be changed to something else.*/
+#app-mount .guilds-wrapper .guilds .home-icon {
+	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogoOutline4px.png);
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*Hides the discord svg image from the home button, this could be used to recolor it as well.*/
+#app-mount .guild-inner > a > svg > g > use {
+	fill: transparent;
+}
