@@ -1,4 +1,4 @@
-//META{"name":"TitlebarFix","description":"Aligns the titlebar for easier recoloring, and also ensures perfect alignment when maximizing while using the transparency patch plugin.","author":"CompletelyUnbelievable","version":"Alpha","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+//META{"name":"TitlebarFix","description":"Aligns the titlebar for easier recoloring, and also ensures perfect alignment when maximizing while using the transparency patch plugin. The best optimizations are the ones indistinguishable from the normal.","author":"CompletelyUnbelievable","version":"Alpha","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
 #app-mount > .titleBar-AC4pGV {
   padding-top: 4px;
