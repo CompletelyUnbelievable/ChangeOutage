@@ -2,7 +2,7 @@
 
 /*For replacing the background, just replace the url in-between the parenthesis. If you are using a rather solid image, not an icon as in this example, then the background-size property will need to be changed to something else.*/
 #app-mount .guilds-wrapper .guilds .home-icon {
-	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png);
+	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/BD%20Logo.png);
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -16,7 +16,7 @@
 /*Changes the color of the home button on hover, requires importance.*/
 .guild:nth-child(1) > .guild-inner:hover {
 	transition: background-color 0.5s ease; /* "0.5s" changes how fast the background color changes when hovered in seconds.*/
-	background-color: red !important;
+	background-color: rgb(113, 54, 138) !important;
 }
 
 /*Sets the initial color to override the JS color transition, requires importance. Unless you are changing the origional background color then this does not need to be changed.*/
