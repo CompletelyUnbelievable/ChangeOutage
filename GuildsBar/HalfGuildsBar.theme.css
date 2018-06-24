@@ -1,4 +1,4 @@
-//META{"name":"Half Sized Guilds Bar","description":"Decreases everything within the guilds area by about half.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource/edit/master/GuildsBar","website":"https://git.io/vhWjm"}*//
+//META{"name":"Half Sized Guilds Bar","description":"Decreases everything within the guilds area by about half.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
 .guilds-wrapper .iconSizeLarge-161qtT, .guilds-wrapper .guilds .guild, .guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .friends-icon {
 	height: 25px; /*50px*/
