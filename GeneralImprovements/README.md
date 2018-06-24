@@ -4,4 +4,4 @@ Makes improvements to things below the titlebar that do not fall under another c
 
 # <a href="https://github.com/CompletelyUnbelievable/ThemeResource/tree/master/Titlebar">TitlebarFix</a>
 
-A minor fix for the titlebar of the discord window. Improves the shape of the box so that the background does not seep into the foreground, makes changes to background colors to the titlebar look better as well.
+Though not in this page because it fits into another category, TitlebarFix is a general improvement. A minor fix for the titlebar of the discord window. Improves the shape of the box so that the background does not seep into the foreground, makes changes to background colors to the titlebar look better as well.
