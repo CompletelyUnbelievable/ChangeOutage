@@ -7,7 +7,7 @@
 /*replaces the discord logo svg (image) with another image, in this case it's a different Discord Logo.*/
 .wordmark-2iDDfm {
 	content: "";
-	background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/DiscordLogo/Images/DiscordLogo.png");
+	background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/Titlebar/Images/DiscordLogo.png");
 	background-size: contain; /*Or Cover*/
 	background-repeat: no-repeat;
 	width: 100px; /*55px*/
