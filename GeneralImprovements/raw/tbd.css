@@ -1,0 +1,5 @@
+/*Not to be used with the old titlebar. Allows for dark and light theme selectors to be used with the background image while also allowing the image to be behind the titlebar.*/
+.app {
+	margin-top: -22px;
+	padding-top: 22px;
+}
