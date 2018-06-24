@@ -4,7 +4,7 @@ Change content to whatever you want the text to be, might not fit unless you mod
 .guilds-wrapper .guilds-error::after {
     font-size: 20px;
     content: "";
-    background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/BD%20Logo.png");
+    background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png");
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: center; 
