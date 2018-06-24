@@ -1,6 +1,6 @@
 # TitlebarFix
 
-A minor fix for the titlebar of the discord window.
+A minor fix for the titlebar of the discord window. Improves the shape of the box so that the background does not seep into the foreground, makes changes to background colors to the titlebar look better as well.
 
 # ReplaceDiscordLogo
 
