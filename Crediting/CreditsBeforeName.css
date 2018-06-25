@@ -1,0 +1,13 @@
+/*Due to the changes to discord this form of crediting is depricated, It is only here for a potential return in the future.*/
+
+/*Credits*/
+.message-group [style*="UserID"] ~ .comment .username-wrapper::before {
+	Content: "Title";
+	color: rgb(231, 76, 60);
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: 0;
+	background-color: rgba(79,84,92,.6);
+	border-radius: 5px;
+	margin-right: 10px;
+}
