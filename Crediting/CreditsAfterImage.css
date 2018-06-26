@@ -1,4 +1,4 @@
-/*DevilBro provided code to add a Nitro tag to a user, With some minor modifications it can be used as a form of crediting*/
+/*DevilBro provided code to add a Nitro tag to a user, With some minor modifications it can be used as a form of crediting. In this form it is just a Nitro Tag.*/
 
 .chat .avatar-large[style*="a_"]:before {
     content: 'Nitro';
