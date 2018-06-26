@@ -1,0 +1,19 @@
+/*DevilBro provided code to add a Nitro tag to a user, With some minor modifications it can be used as a form of crediting*/
+
+.chat .avatar-large[style*="a_"]:before {
+    content: 'Nitro';
+    color: white;
+    background: #000000;
+    line-height: 12px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border-radius: 3px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: text;
+    position: absolute;
+    top: 32px;
+    left: -2px;
+}
