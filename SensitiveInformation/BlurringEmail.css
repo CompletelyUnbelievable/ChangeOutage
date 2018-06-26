@@ -1,0 +1,11 @@
+/*The blur on the text while it is not hovered*/
+#app-mount .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:not(:hover) {
+	transition: filter 0.3s;
+	filter: blur(6px);
+}
+
+/*The lack of blurring while the text is being hovered.*/
+#app-mount .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {
+	transition: filter 0.3s;
+	filter: none;
+}
