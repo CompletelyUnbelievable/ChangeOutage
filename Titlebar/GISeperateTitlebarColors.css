@@ -16,7 +16,7 @@
 .app.theme-dark::before {
 	content: '';
 	padding-top: 22px;
-	background-color: #ffffff;
+	background-color: #333333;
 }
 
 /*Allows background images to extend behiund the titlebar and changes the background color of the titlebarin the light theme.*/
