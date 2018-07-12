@@ -1,0 +1,27 @@
+
+
+/*Fixes the sizing of the titlebar as well as sets it's background color transparent so we can change the background color with dark/light theme selectors.*/
+#app-mount > .titleBar-AC4pGV {
+	padding-top: 4px;
+	margin-top: 0px;
+	background-color: transparent;
+}
+
+/*Allows background images to extend behind the titlebar.*/
+.app {
+	margin-top: -22px;
+}
+
+/*Allows background images to extend behiund the titlebar and changes the background color of the titlebarin the dark theme.*/
+.app.theme-dark::before {
+	content: '';
+	padding-top: 22px;
+	background-color: #ffffff;
+}
+
+/*Allows background images to extend behiund the titlebar and changes the background color of the titlebarin the light theme.*/
+.app.theme-light::before {
+	content: '';
+	padding-top: 22px;
+	background-color: #000000;
+}
