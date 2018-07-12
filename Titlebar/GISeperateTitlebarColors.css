@@ -1,4 +1,4 @@
-
+//META{"name":"GISeperateTitlebarColors","description":"Allows for seperate titlebar background colors while including GeneralImprovements.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource/edit/master/Titlebar","website":"https://git.io/vhWjm"}*//
 
 /*Fixes the sizing of the titlebar as well as sets it's background color transparent so we can change the background color with dark/light theme selectors.*/
 #app-mount > .titleBar-AC4pGV {
