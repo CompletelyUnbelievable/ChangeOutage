@@ -2,10 +2,10 @@
 
 <div>In order for images to load as backgrounds or otherwise in BetterDiscord the image link must contain:</div><br>
   
-  <ul>
+  <div><ul>
     <li>HTTPS at the beginning of the link to the image.</li>
     <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar.</li>
-  </ul>
+  </ul></div>
 
 # Oddly Sized Images
 
