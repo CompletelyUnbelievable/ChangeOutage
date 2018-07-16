@@ -1,6 +1,6 @@
 # Images Not Loading
 
-<div>In order for images to load as backgrounds or otherwise in BetterDiscord the image link must contain:
+<div>In order for images to load as backgrounds or otherwise in BetterDiscord the image link must contain:<br>
   <ul>
     <li>HTTPS at the beginning of the link to the image.</li>
     <li>Must end with an image filetype: <i>.png</i> or <i>.jpg</i></li>
