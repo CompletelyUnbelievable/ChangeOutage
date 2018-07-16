@@ -1,4 +1,4 @@
-#Oddly Sized Images
+# Oddly Sized Images
 
 <div><a href="https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/BetterDiscord101/ImageIssues/Images/bRMaNZT.gif">Sometimes Gifs are more than they seem, click here to see.</a></div><br>
 
