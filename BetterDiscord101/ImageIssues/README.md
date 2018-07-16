@@ -4,7 +4,7 @@
   
   <ul>
     <li>HTTPS at the beginning of the link to the image.</li>
-    <li>Must end with an image filetype: <i>.png</i> or <i>.jpg</i></li>
+    <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar.</li>
   </ul>
 
 # Oddly Sized Images
