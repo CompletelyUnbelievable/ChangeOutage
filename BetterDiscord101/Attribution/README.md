@@ -1,4 +1,4 @@
-# Attribution in regards to redistribution
+# Guidelines in regards to Attribution with intent to redistribute
 
 <h3>Introduction</h3>
 
