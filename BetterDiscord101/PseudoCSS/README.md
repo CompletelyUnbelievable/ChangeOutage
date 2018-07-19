@@ -10,9 +10,9 @@
 
 <a name="WhatAreSE"><h2>What Are Pseudo Elements?</h2></a>
 
-They modify a specific part of an element. <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">[?]</a>
+They modify a specific part of an element rather than the state of an element. <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">[?]</a>
   
-If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, every single scrollbar in discord is a pseudo element. Some pseudo elements are unique to the browser, discord is based off either the Google Chrome or Chromium browsers so it uses webkit scrollbars. Pseudo elements are not to be confused with pseudo classes which are not the subject of this material.
+If there is an element that you cannot seem to find then it is probably due to pseudo elements. For instance, the scrollbars in discord are pseudo elements. Some pseudo elements are unique to the browser, discord is based off either the Google-Chrome/Chromium browser(s) so it uses webkit scrollbars. <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">Pseudo elements</a> are not to be confused with <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">pseudo classes</a> which are not the subject of this material.
 
 <a name="ApplyingPE"><h2>Applying Pseudo Elements</h2></a>
 
