@@ -32,9 +32,9 @@ What is being pointed out here is that the scrollbar, though it is a pseudo elem
 
 When it comes to the before and after elements they always require content as a style even if that content does not contain anything. If it does not contain content then the before and after elements will not be rendered at all.
 
-The before and after elements are extremely useful in limited situations, one such situation is when you are confined to only modifing the CSS or making a JavaScript plugin. Since JavaScript requires more from the developer, whatever can be done through CSS alone will be done through CSS. <a href="https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/ChangeOutage/raw/Outage.css">Take a look at the CSS I wrote to change both the contents and insert an image to the discord outage area</a>, before and after elements are used to both hide and add text and images all from the CSS itself. Here's an image of it in action:
+The before and after elements are extremely useful in limited situations, one such situation is when you are confined to only modifing the CSS or making a JavaScript plugin. Since JavaScript requires more from the developer, whatever can be done through CSS alone will be done through CSS. <a href="https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/GuildsBar/ChangeOutage.theme.css">Take a look at the CSS I wrote to change both the contents and insert an image to the discord outage area</a>, before and after elements are used to both hide and add text and images all from the CSS itself. Here's an image of it in action:
 
-![Puts the Better Discord Logo inside the outage symbol or area](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/ChangeOutage/Images/image.png)
+![Puts the Better Discord Logo inside the outage symbol or area](https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/image.png)
 
 As powerful as these pseudo elements may seem, there are things that they cannot do. To learn the limitations it would be best to try it for yourself, and ask around. People might even give you a way to get around it in a way that you'd never thought of.
 
