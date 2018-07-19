@@ -10,6 +10,6 @@
 
 <h3>A Measure</h3>
 
-<div>Defining how much can be used or "borrowed" without the permission of the author is something difficult to tackle because in the best possible scenario the author or the community should define that themselves. Things with clear and expressed intent to assist development, such as the CSS styles in ThemeResource, or sometimes "Mini-Themes" should be free to use without expressing intent. The use of ten or less selectors should be fine without attribution as long as it does not contain any significant other work such as art and your own work occupies the majority of the given work.</div>
+<div>Defining how much can be used or "borrowed" without the permission of the author is something difficult to tackle because in the best possible scenario the author or the community should define that themselves. Things with clear and expressed intent to assist development, such as the CSS styles in ThemeResource, or sometimes "Mini-Themes" should be free to use without expressing intent. The use of ten or less selectors with their declarations should be fine without attribution as long as it does not contain any significant other work such as art and your own work occupies the majority of the given work.</div>
 
 <h3>To be continued</h3>
