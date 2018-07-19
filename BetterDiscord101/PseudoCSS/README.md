@@ -44,4 +44,14 @@ The other pseudo elements listed are: 'first-letter', 'first-line', 'selection'.
 
 There are other pseudo elements that are on a browser by browser basis that are useful but either fall to the same issue or due to obscurity. I would suggest looking up documentation for pseudo elements or unique styles on a browser by browser basis and see where they can be applied.
 
+<h1>Appendix:</h1>
+
+1) <a href="#WhatAreSE">What Are Pseudo Elements</a>
+
+2) <a href="#ApplyingPE">Applying Pseudo Elements</a>
+
+3) <a href="#ApplyingBA">Applying The 'before' And 'after' Pseudo Elements</a>
+
+4) <a href="#OtherPE">The Other Pseudo Elements</a>
+
 <h3>To be continued</h3>
