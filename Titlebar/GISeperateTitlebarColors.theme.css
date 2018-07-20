@@ -1,4 +1,22 @@
 //META{"name":"GISeperateTitlebarColors","description":"Allows for seperate titlebar background colors and seperate background images for the light and dark themes.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource/edit/master/Titlebar","website":"https://git.io/vhWjm"}*//
+@import url("https://completelyunbelievable.github.io/TransparencyQuick/Import/TransparencyQuick.css");
+
+
+
+/*I made these variables so that this is easily to fiddle with.*/
+:root {
+	--DarkBackground: url("https://i.imgur.com/PnSeZX3r.jpg");
+	--LightBackground: url("https://i.imgur.com/QguApMA.jpg");
+	--DarkTitlebarColor: #333333;
+	--LightTitlebarColor: #000000;
+	--FallbackColor: #000000;
+	--BackgroundFill: cover;
+}
+
+/*There is no real need to modify anything below if you are just trying to fiddle with it, but explainations will be provided anyways.*/
+
+
+
 
 /*Fixes the sizing of the titlebar as well as sets it's background color transparent so we can change the background color with dark/light theme selectors.*/
 #app-mount > .titleBar-AC4pGV {
@@ -7,21 +25,35 @@
 	background-color: transparent;
 }
 
-/*Allows background images to extend behind the titlebar.*/
+/*Allows background images to extend behind the titlebar and sets up declarations for the background images*/
 .app {
 	margin-top: -22px;
+	background-repeat: no-repeat;
+	background-size: var(--BackgroundFill, 100% 100%);
 }
 
-/*Allows background images to extend behiund the titlebar and changes the background color of the titlebarin the dark theme.*/
+/*Allows background images to extend behind the titlebar.*/
+.app::before {
+	content: '';
+	padding-top: 22px;
+}
+
+/*Sets the background color of the titlebar in dark theme.*/
 .app.theme-dark::before {
-	content: '';
-	padding-top: 22px;
-	background-color: #333333;
+	background-color: var(--DarkTitlebarColor, var(--FallbackColor, transparent));
 }
 
-/*Allows background images to extend behiund the titlebar and changes the background color of the titlebarin the light theme.*/
+/*Sets the background color of the titlebar in light theme.*/
 .app.theme-light::before {
-	content: '';
-	padding-top: 22px;
-	background-color: #000000;
+	background-color: var(--LightTitlebarColor, var(--FallbackColor, transparent));
+}
+
+/*Sets the background image of the discord window in dark theme.*/
+.app.theme-dark {
+	background-image: var(--DarkBackground, var(--FallbackColor, transparent));
+}
+
+/*Sets the background image of the discord window in light theme.*/
+.app.theme-light {
+	background-image: var(--LightBackground, var(--FallbackColor, transparent));
 }
