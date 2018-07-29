@@ -1,1 +1,4 @@
-
+/*Modified from one of Sato's posts, Makes the card boxes in the Games Menu Semi-transparent or translucent. Sato's code required importance this does not.*/
+#app-mount .headerBar-UHpsPw,#app-mount .activityFeed-28jde9,#app-mount .header-1RC2Wb,#app-mount .card-7JP0BX {
+    background: transparent;
+}
