@@ -50,10 +50,10 @@
 
 /*Sets the background image of the discord window in dark theme.*/
 .app.theme-dark {
-	background-image: var(--DarkBackground, var(--FallbackColor, transparent));
+	background: var(--DarkBackground, var(--FallbackColor, transparent));
 }
 
 /*Sets the background image of the discord window in light theme.*/
 .app.theme-light {
-	background-image: var(--LightBackground, var(--FallbackColor, transparent));
+	background: var(--LightBackground, var(--FallbackColor, transparent));
 }
