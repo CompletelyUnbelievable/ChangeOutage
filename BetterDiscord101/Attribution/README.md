@@ -1,5 +1,9 @@
 # Guidelines in regards to Attribution with intent to redistribute
 
+<h3>Preface</h3>
+
+<div>To be clear, I do not believe anyone takes themselves too seriously in reguards to attribution. Most theme developers just don't want someone trying to submit someone else's creation with minor changes or a theme that doesn't do much. These are just general guidelines for those who want it defined, this is not the law but should give insight into how things work.</div>
+
 <h3>Introduction</h3>
 
 <div>Attribution is a rather complex topic, since it will vary depending on how much or what is used. In regards to CSS styles in relation to BD, I do not believe that anyone would be arrogant enough to say that one's work should be unreproducible. I do not believe that anyone wants their own work to end with them, with sufficient attribution and transformation of the work a person should be able to build upon the work of others.</div>
