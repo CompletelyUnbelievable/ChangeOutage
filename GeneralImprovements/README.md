@@ -1,6 +1,6 @@
-# GISeperateTitlebarColors
+# GISepTitlebarAndBG
 
-<div>Placeholder</div>
+<div>GISepTitlebarAndBG is a combination of ContentImprovements and TitlebarFix, it's full title being, "General Improvements for seperating Titlebar colors and Background images based on theme appearance." TransparencyQuick uses this code, so any theme using it can also have seperate background images and titlebar colors for their theme. It operates off of the notion that if the CSS variables are n ot in use you should not be able to tell anyhting has changed.</div>
 
 # ContentImprovements
 
