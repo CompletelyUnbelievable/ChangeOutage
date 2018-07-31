@@ -29,7 +29,6 @@
 .app {
 	margin-top: -22px;
 	background-repeat: no-repeat;
-	background-size: var(--BackgroundFill, 100% 100%);
 }
 
 /*Allows background images to extend behind the titlebar.*/
@@ -51,9 +50,11 @@
 /*Sets the background image of the discord window in dark theme.*/
 .app.theme-dark {
 	background: var(--DarkBackground, var(--FallbackColor, transparent));
+	background-size: var(--BackgroundFill, 100% 100%);
 }
 
 /*Sets the background image of the discord window in light theme.*/
 .app.theme-light {
 	background: var(--LightBackground, var(--FallbackColor, transparent));
+	background-size: var(--BackgroundFill, 100% 100%);
 }
