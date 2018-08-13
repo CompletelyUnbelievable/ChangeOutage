@@ -78,7 +78,7 @@
 	width: 6px; /*12px*/
 }
 
-.da-guildsWrapper .da-guilds .guild-1EfMGQ.audio .da-guildInner:after, .da-guildsWrapper .da-guilds .guild-1EfMGQ.video .da-guildInner:after {
+.da-guildsWrapper .da-guilds .guild-1EfMGQ.audio-3vVhBi .da-guildInner:after, .da-guildsWrapper .da-guilds .guild-1EfMGQ.video-15yGu3 .da-guildInner:after {
 	background-size: 8px; /*16px*/
 	height: 12px; /*24px*/
 	width: 12px; /*24px*/
@@ -94,7 +94,7 @@
 	width: 44px; /*88px*/
 }
 
-.da-appMount .da-guildsWrapper .scroller-wrap .scroller::-webkit-scrollbar {
+.da-appMount .da-guildsWrapper .da-scrollerWrap .da-scroller::-webkit-scrollbar {
 	width: 0px; /*14*/
 }
 
