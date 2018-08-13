@@ -1,8 +1,8 @@
 /*Modified from one of Sato's posts, Makes the card boxes in the Games Menu Semi-transparent or translucent. Sato's code required importance this does not.*/
-#app-mount .headerBar-UHpsPw, #app-mount .activityFeed-28jde9, .header-1RC2Wb, #app-mount .card-7JP0BX {
+.da-card .da-header, .da-appMount .da-activityFeed, .da-card .da-cardHeader, .da-appMount .da-card {
     background: transparent;
 }
 
-#app-mount .body-SKIE6r {
-    /*Already translucent*/
+da-appMount .da-cardBody {
+    /*Already translucent, this is legacy.*/
 }
