@@ -1,6 +1,6 @@
 //META{"name":"ContentImprovements","description":"Not to be used with the old titlebar. Allows for dark and light theme selectors to be used with the background image while also allowing the image to be behind the titlebar.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
-.da-app {
+.app {
 	margin-top: -22px;
 	padding-top: 22px;
 }
