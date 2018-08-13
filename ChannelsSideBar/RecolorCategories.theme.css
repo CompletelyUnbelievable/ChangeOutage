@@ -1,16 +1,16 @@
 //META{"name":"RecolorCategories","description":"Allows easy replacement for the background of the home button.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
 /*Color of all channel categories on Hover*/
-#app-mount .iconHovered-2L3-fB, #app-mount .iconHoveredCollapsed-3caIIZ, #app-mount .nameHovered-1gxhWH, #app-mount .nameHoveredCollapsed-2orEWB {
+.da-appMount .iconHovered-2L3-fB, .da-appMount .iconHoveredCollapsed-3caIIZ, .da-appMount .nameHovered-1gxhWH, .da-appMount .nameHoveredCollapsed-2orEWB {
     color: red;
 }
 
 /*Un-muted channel category colors*/
-#app-mount .iconCollapsed-3hFp_8, #app-mount .iconDefault-3Gr8d2, #app-mount .nameCollapsed-34uFWo, #app-mount .nameDefault-2DI02H {
+.da-appMount .iconCollapsed-3hFp_8, .da-appMount .iconDefault-3Gr8d2, .da-appMount .nameCollapsed-34uFWo, .da-appMount .nameDefault-2DI02H {
     color: green;
 }
 
 /*Muted channel category colors*/
-#app-mount .iconMuted-1HVBGH, #app-mount .nameMuted-1MCOt4 {
+.da-appMount .iconMuted-1HVBGH, .da-appMount .nameMuted-1MCOt4 {
     color: orange;
 }
