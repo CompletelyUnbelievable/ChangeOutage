@@ -1,13 +1,13 @@
 //META{"name":"Replace Discord Logo","description":"Replaces the Discord Logo in the top right with a different discord logo.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource/edit/master/DiscordLogo","website":"https://git.io/vhWjm"}*//
 
 /*removes the discord logo svg (image)*/
-.wordmark-2iDDfm svg path {
+.da-wordmark svg path {
 	display: none;
 	fill: transparent;
 }
 
 /*replaces the discord logo svg (image) with another image, in this case it's a different Discord Logo.*/
-.wordmark-2iDDfm {
+.da-wordmark {
 	content: "";
 	background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/Titlebar/Images/DiscordLogo.png");
 	background-size: contain; /*Or Cover*/
