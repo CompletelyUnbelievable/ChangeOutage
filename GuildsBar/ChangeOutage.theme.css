@@ -28,7 +28,7 @@ Change content to whatever you want the text to be, might not fit unless you mod
     font-size: 0; /*Removes the old tooltip text.*/
 }
 
-.da-appMount .da-tooltips .da-tooltipRight.da-tooltipRed strong:before {
+.da-appMount .da-tooltips .da-tooltipRight.da-tooltipRed strong::before {
     font-size: 14px;
     content: "There are "; /*Text before the number of guilds with outages.*/
 }
@@ -37,7 +37,7 @@ Change content to whatever you want the text to be, might not fit unless you mod
     font-size: 14px; /*default is 14px, change to 0px if you dont want the number of guilds with outages to be visable.*/
 }
 
-.da-appMount > .da-tooltips .da-tooltipRight.da-tooltipRed strong:after {
+.da-appMount > .da-tooltips .da-tooltipRight.da-tooltipRed strong::after {
     font-size: 14px;
     content: " Guild(s) with outages."; /*Text after the number of guilds with outages.*/
 }
