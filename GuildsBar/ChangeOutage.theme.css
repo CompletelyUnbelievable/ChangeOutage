@@ -3,7 +3,7 @@
 /*For changing the guild outage exclamation point to a different image or text.
 Change to "background-image: transparent;" if you don't want to have a background image.
 Change content to whatever you want the text to be, might not fit unless you modify the font size.*/
-.guilds-wrapper .guilds-error::after {
+.da-guildsWrapper .da-guildsError::after {
     font-size: 20px;
     content: "";
     background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png");
@@ -18,26 +18,26 @@ Change content to whatever you want the text to be, might not fit unless you mod
     height: 50px;
 }
 
-.guilds-wrapper .guilds-error {
+.da-guildsWrapper .da-guildsError {
     font-size: 0; /*Hides exclamation point*/
 }
 
 
 /*For changing the guild outage tool tip text.*/
-#app-mount > div.tooltips div.tooltip-right.tooltip-red {
+.da-appMount .da-tooltips .da-tooltipRight.da-tooltipRed {
     font-size: 0; /*Removes the old tooltip text.*/
 }
 
-#app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {
+.da-appMount .da-tooltips .da-tooltipRight.da-tooltipRed strong:before {
     font-size: 14px;
     content: "There are "; /*Text before the number of guilds with outages.*/
 }
 
-#app-mount > div.tooltips div.tooltip-right.tooltip-red strong {
+.da-appMount > .da-tooltips .da-tooltipRight.da-tooltipRed strong {
     font-size: 14px; /*default is 14px, change to 0px if you dont want the number of guilds with outages to be visable.*/
 }
 
-#app-mount > div.tooltips div.tooltip-right.tooltip-red strong:after {
+.da-appMount > .da-tooltips .da-tooltipRight.da-tooltipRed strong:after {
     font-size: 14px;
     content: " Guild(s) with outages."; /*Text after the number of guilds with outages.*/
 }
