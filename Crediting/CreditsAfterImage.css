@@ -1,6 +1,6 @@
 /*DevilBro provided code to add a Nitro tag to a user, With some minor modifications it can be used as a form of crediting. In this form it is just a Nitro Tag.*/
 
-.chat .da-large[style*="a_"]:before {
+.da-chat .da-large[style*="a_"]:before {
     content: 'Nitro';
     color: white;
     background: #000000;
@@ -17,7 +17,3 @@
     top: 32px;
     left: -2px;
 }
-
-
-/*old selectors*/
-/*.chat .avatar-large[style*="a_"]:before*/
