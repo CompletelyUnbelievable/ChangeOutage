@@ -2,7 +2,7 @@ A place for css related to the home menu otherwise known as the DM menu.
 
 # Activity Menu Transparency
 
-<div>Satoru (135913674538745856) posted css to make the cards and various other elements of the Activity tab in the Home menu transparent. This is a modification of the code he posted that does not require importance.</div>
+<div>Discord user Satoru (135913674538745856) posted css to make the cards and various other elements of the Activity tab in the Home menu transparent. This is a modification of the code he posted that does not require importance.</div>
 
 # Hide Library and Store
 
