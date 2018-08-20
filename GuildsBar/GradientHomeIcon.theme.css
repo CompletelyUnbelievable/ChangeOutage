@@ -1,12 +1,21 @@
 //META{"name":"GradientHomeIcon","description":"Changes the home button logo into a linear gradient.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
+/*if the size of the home button is being changed then the scaling of the background size must as well, otherwise it wont work*/
 :root {
-	--gradient: linear-gradient(to left, #26f9d9 1%,#3ae795 42%,#3ce580 57%,#3fa257 100%);
-	--homesize: 30px;
-	--homemasksize: 40px;
+	--gradientc1: #3fa257; /*#3fa257*/
+	--gradientc2: #3ce580; /*#3ce580*/
+	--gradientc3: #3ae795; /*#3ae795*/
+	--gradientc4: #26f9d9; /*#26f9d9*/
+	--homesize: 30px; /*30px*/
+	--homemasksize: 40px; /*40px*/
 }
 
-/*if the size of the home button is being change then the scaling of the background size must as well, otherwise it wont work*/
+
+/*Below should not need to be modified.*/
+:root {
+	--gradient: linear-gradient(to left, var(--gradientc4, #26f9d9) 1%, var(--gradientc3, #3ae795) 40%, var(--gradientc2, #3ce580) 60%,var(--gradientc1, #3fa257) 100%);
+}
+
 .da-appMount .da-guildInner .da-homeIcon {
 	background: var(--gradient, #000);
 	background-size: var(--homesize, 30px);
