@@ -1,4 +1,4 @@
-//META{"name":"GradientHomeButton","description":"Changes the home button logo into a linear gradient.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+//META{"name":"GradientHomeIcon","description":"Changes the home button logo into a linear gradient.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
 :root {
 	--gradient: linear-gradient(to left, #26f9d9 1%,#3ae795 42%,#3ce580 57%,#3fa257 100%);
