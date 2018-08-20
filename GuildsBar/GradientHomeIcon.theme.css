@@ -18,7 +18,7 @@
 
 	--homemasksize: 40px; /*40px*/
 
-	--gradientoverride: var(--gradient);
+	--gradientoverride: var(--gradient); /*change "var(--gradient)" to any valid gradient if you do not want to use a linear one.*/
 }
 
 
