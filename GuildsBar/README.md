@@ -11,3 +11,7 @@ Discord user tehbasshunter (66043140208857088) asked if the text could be replac
 # ReplaceHomeButton
 
 Discord user 𝓒𝓸𝓶𝓪 (308340703153356801) asked how to preoperly add a background image to the home icon. While discord user Body Pullow (116242787980017679) desired the hovered background color to be a different color.
+
+# GradientHomeIcon
+
+Discord user Ruben7173 (300024006462144512) was/is working on a theme and I noticed that ruben was using a modified image of the discord logo to replace the origional image. I wanted to see if there was a way to use linear gradient to replicate it out of purely css, to which this was my solution. Makes the home icon on the home button a configuarable linear gradient. I am left to assume that webkit is supported on all versions of discord since I cannot check myself, if it isn't please notify me.
