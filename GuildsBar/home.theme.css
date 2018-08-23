@@ -1,0 +1,50 @@
+//META{"name":"GradientHomeIconTest","description":"Changes the home button logo into a linear gradient.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+
+/*if the size of the home button is being changed then the scaling of the background size must as well, otherwise it wont work*/
+:root {
+	--mask: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/Moving_Discord_Logo.gif) no-repeat 50% 50%;
+
+	--direction: to right; /*to right*/
+
+	--gradientc1: #3fa257; /*#3fa257*/
+	--gradientp1: 0%; /*0%*/
+
+	--gradientc2: #3ce580; /*#3ce580*/
+	--gradientp2: 40%; /*40%*/
+
+	--gradientc3: #3ae795; /*#3ae795*/
+	--gradientp3: 60%; /*60%*/
+
+	--gradientc4: #26f9d9; /*#26f9d9*/
+	--gradientp4: 100%; /*100%*/
+
+	--homemasksize: 55px; /*55px*/
+
+	--gradientoverride: var(--gradient); /*change "var(--gradient)" to any valid gradient if you do not want to use a linear one.*/
+}
+
+
+/*Below should not need to be modified.*/
+
+.da-appMount .da-guildInner .da-homeIcon {
+	content: '';
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+	background: var(--gradientoverride, var(--gradient, #000));
+	background-size: var(--homesize, calc(var(--homemasksize, 40px) - 5px));
+	-webkit-mask: var(--mask,var(--backupmask));
+	-webkit-mask-size: var(--homemasksize, 55px);
+	mask-type: alpha;
+}
+
+.da-appMount .da-homeIcon {
+	color: transparent; /*Hides the normal home icon so it can be replaced.*/
+}
+
+:root {
+	--gradient: linear-gradient(var(--direction, to right), var(--gradientc1, #3fa257) var(--gradientp1, 1%), var(--gradientc2, #3ce580) var(--gradientp2, 40%), var(--gradientc3, #3ae795) var(--gradientp3, 60%), var(--gradientc4, #26f9d9) var(--gradientp4, 100%));
+	//--homesize: 35px; /*35px, for testing purposes.*/
+	--backupmask: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/Discord_Logo.png) no-repeat 50% 50%;
+}
