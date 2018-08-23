@@ -18,7 +18,7 @@
 	--gradientc4: #26f9d9; /*#26f9d9*/
 	--gradientp4: 100%; /*100%*/
 
-	--homemasksize: 55px; /*55px*/
+	--homemasksize: 100px; /*55px*/
 
 	--gradientoverride: var(--gradient); /*change "var(--gradient)" to any valid gradient if you do not want to use a linear one.*/
 }
@@ -27,9 +27,9 @@
 /*Below should not need to be modified.*/
 
 .da-appMount .da-guildInner .da-homeIcon {
-	content: '';
-	width: 50px;
-	height: 50px;
+	//content: '';
+	//width: 50px;
+	//height: 50px;
 	position: absolute;
 	left: 0px;
 	background: var(--gradientoverride, var(--gradient, #000));
