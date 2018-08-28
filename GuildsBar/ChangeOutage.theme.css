@@ -1,43 +1,55 @@
-//META{"name":"ChangeOutage","description":"Changes the exclamation point in Discord guild outages to the Better Discord logo. It's sad if you see this often enough that you want to be able to change it.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+//META{"name":"ChangeOutage","description":"Changes the exclamation point in Discord guild outages to the Better Discord logo. It's sad if you see this often enough that you want to be able to change it.","author":"CompletelyUnbelievable","version":"1.1","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+
+:root {
+	--outageicon: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png");
+
+	/*uncomment this line to replace the text instead of hiding the text.*/
+	//--outagetext: "!";
+
+	/*Uncomment the two lines below if using VariableServerGrid.*/
+	//--outageimagesize: calc(50% - 3.9915px) calc(50% - 3.9915px);
+	//--outagemargin: 4px;
+}
+
 
 /*For changing the guild outage exclamation point to a different image or text.
 Change to "background-image: transparent;" if you don't want to have a background image.
 Change content to whatever you want the text to be, might not fit unless you modify the font size.*/
 .da-guildsWrapper .da-guildsError::after {
-    font-size: 20px;
-    content: "";
-    background-image: url("https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png");
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    width: 50px;
-    height: 50px;
+	font-size: 20px;
+	content: var(--outagetext, '');
+	background: var(--outageicon, transparent);
+	background-size: var(--outageimagesize, 50% 50%);
+	background-repeat: no-repeat;
+	background-position: center; 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	margin-top: var(--outagemargin, 0px);
 }
 
-.da-guildsWrapper .da-guildsError {
-    font-size: 0; /*Hides exclamation point*/
+.da-guildsWrapper .da-guilds .da-anchor.da-guildsError {
+	font-size: 0; /*Hides exclamation point*/
 }
 
 
 /*For changing the guild outage tool tip text.*/
 .da-appMount .da-tooltips .da-tooltipRight.da-tooltipRed {
-    font-size: 0; /*Removes the old tooltip text.*/
+	font-size: 0; /*Removes the old tooltip text.*/
 }
 
 .da-appMount .da-tooltips .da-tooltipRight.da-tooltipRed strong::before {
-    font-size: 14px;
-    content: "There are "; /*Text before the number of guilds with outages.*/
+	font-size: 14px;
+	content: "There are "; /*Text before the number of guilds with outages.*/
 }
 
 .da-appMount > .da-tooltips .da-tooltipRight.da-tooltipRed strong {
-    font-size: 14px; /*default is 14px, change to 0px if you dont want the number of guilds with outages to be visable.*/
+	font-size: 14px; /*default is 14px, change to 0px if you dont want the number of guilds with outages to be visable.*/
 }
 
 .da-appMount > .da-tooltips .da-tooltipRight.da-tooltipRed strong::after {
-    font-size: 14px;
-    content: " Guild(s) with outages."; /*Text after the number of guilds with outages.*/
+	font-size: 14px;
+	content: " Guild(s) with outage(s)."; /*Text after the number of guilds with outages.*/
 }
