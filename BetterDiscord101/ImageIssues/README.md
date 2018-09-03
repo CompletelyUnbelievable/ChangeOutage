@@ -3,8 +3,8 @@
 <div>In order for images to load as backgrounds or otherwise in BetterDiscord the image link must contain:<br><br>
   
   <ul>
-    <li>HTTPS at the beginning of the link to the image. [<b>https</b>://i.imgur.com/iNq5zmg.png]</li>
-    <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar. [https://i.imgur.com/iNq5zmg<b>.png</b>]</li>
+    <li>HTTPS at the beginning of the link to the image. <i>[<b>https</b>://i.imgur.com/iNq5zmg.png]</i></li>
+    <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar. <i>[https://i.imgur.com/iNq5zmg<b>.png</b>]</i></li>
     <li>Beyond this, then it is probably a typo in the CSS file. Generally caused by the general user.</li>
   </ul></div>
 
