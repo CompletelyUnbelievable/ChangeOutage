@@ -4,7 +4,7 @@
   
   <ul>
     <li>HTTPS at the beginning of the link to the image. <i>[<b>https</b>://i.imgur.com/iNq5zmg.png]</i></li>
-    <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar. <i>[https://i.imgur.com/iNq5zmg<b>.png</b>]</i></li>
+    <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar. <a><i>[https://i.imgur.com/iNq5zmg<b>.png</b>]</a></i></li>
     <li>Beyond this, then it is probably a typo in the CSS file. Generally caused by the average user. Redownload the theme from #theme-repo.</li>
   </ul></div>
 
