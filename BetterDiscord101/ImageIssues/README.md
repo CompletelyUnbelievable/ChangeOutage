@@ -21,8 +21,8 @@
 	<li>Open each image link in your browser until you find the image you are trying to fix.</li>
 	<li>If the image does not load or the image is deleted, find a new image otherwise get a different theme from #theme-repo. If you can't find the image link in the file then get a different theme from #theme-repo. Otherwise continue to the next step.</li>
 	<li>Next is to identify what you are dealing with. If the line begins with "--" then it is a css variable, continue to the next step. If the line does not begin with and does not contain "--" then skip the next step.</li>
-	<li>After the "--" is the css variable name and a colon, leave those alone and if you messed with them redownload the theme. The letters <i>url(</i> should encompass a link with or without quotation marks or apostrophes with <i>);</i> at the end of the line. If all of that is true then it should be working. Example: <a>[<i>--BackgroundPhoto: url(https://i.imgur.com/iNq5zmg.png);</i>]</a></li>
-	<li>To be written...</li>
+	<li>After the "--" is the css variable name and a colon, leave those alone and if you messed with them redownload the theme. The letters "<i>url(</i>" should encompass a link with or without quotation marks or apostrophes with "<i>);</i>" at the end of the line. If all of that is true then it should be working. Example: <a><i>--BackgroundPhoto: url(https://i.imgur.com/iNq5zmg.png);</i></a></li>
+	<li>The line should start with "<i>background:</i>" or "<i>background-image:</i>". Following that should be the letters "<i>url(</i>" that should encompass a link with or without quotation marks or apostrophes with "<i>);</i>" at the end of the line. If all of that is true then it should be working. Example: <a><i>background-image: url(https://i.imgur.com/iNq5zmg.png);</i></a></li>
 </ol>
 </div>
 
