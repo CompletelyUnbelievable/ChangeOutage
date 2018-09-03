@@ -5,6 +5,7 @@
   <ul>
     <li>HTTPS at the beginning of the link to the image. <i>[<b>https</b>://i.imgur.com/iNq5zmg.png]</i></li>
     <li>Must end with an image filetype: <b>.png</b>, <b>.jpg</b>, or something similar. <a><i>[https://i.imgur.com/iNq5zmg<b>.png</b>]</a></i></li>
+    <li>The best way to ensure you have a good link it to open it in a browser and make sure that there is nothing else except for the image.</li>
     <li>Beyond this, then it is probably a typo in the CSS file. Generally caused by the average user. Redownload the theme from #theme-repo.</li>
   </ul></div>
 
