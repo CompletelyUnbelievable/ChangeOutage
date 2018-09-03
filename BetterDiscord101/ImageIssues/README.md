@@ -16,7 +16,7 @@
 
 <ol>
 	<li>Open the file with notepad/notepad++</li>
-	<li>If you see "@import" one or more of these then you know that the bulk of the css is being brought in from elsewhere. If there is nothing below the imports then it means it is the fault of the developer or it has since ceased development, get a newer theme from #theme-repo in that case otherwise continue reading.<li>
+	<li>If you see "@import" one or more of these then you know that the bulk of the css is being brought in from elsewhere. If there is nothing below the imports then it means it is the fault of the developer or it has since ceased development, get a newer theme from #theme-repo in that case otherwise continue reading.</li>
 	<li>Use the find/search function to find "https", this will allow you to search for all links in the file.</li>
 	<li>Open each image link in your browser until you find the image you are trying to fix.</li>
 	<li>If the image does not load or the image is deleted, find a new image otherwise get a different theme from #theme-repo. If you can't find the image link in the file then get a different theme from #theme-repo.</li>
