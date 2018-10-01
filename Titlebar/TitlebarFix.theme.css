@@ -1,6 +1,6 @@
 //META{"name":"TitlebarFix","description":"Aligns the titlebar for easier recoloring, and also ensures perfect alignment when maximizing while using the transparency patch plugin. The best optimizations are the ones indistinguishable from the normal.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
-.da-appMount > .da-titleBar {
+.da-appMount .da-titleBar, #app-mount .titleBar-AC4pGV {
   padding-top: 4px;
   margin-top: 0px;
 }
