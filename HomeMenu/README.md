@@ -1,6 +1,10 @@
 # Home Menu
 
-A place for css related to the home menu otherwise known as the DM menu.
+<div>A place for css related to the home menu otherwise known as the DM menu.</div>
+
+# Collapsed Link Buttons
+
+<div>Discord user superman (208718331325317121) gave me the inspiriation to make this. Makes the activity, game library, store, and friends buttons in the home menu smaller and removes their text.</div>
 
 # Activity Menu Transparency
 
