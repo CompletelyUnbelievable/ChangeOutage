@@ -16,4 +16,4 @@
 
 # Collapsed Direct Messages
 
-<div>Discord user Meonrec had a misunderstanding of what Collapsed Link Buttons, thinking it effected user DMs. This makes DMs smaller and removes the text referring to usernames and what they are doing.</div>
+<div>Discord user Meonrec had a misunderstanding of what Collapsed Link Buttons, thinking it effected user DMs. This makes DMs smaller and removes the text referring to usernames and what they are doing. Discord does not load this properly so it wont use the full space offered by this snippet without a plugin made to load it properly.</div>
