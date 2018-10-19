@@ -1,0 +1,30 @@
+.channel-2QD9_O a[href*="/channels/@me/"] {
+	padding: 8px 8px 8px 8px;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.channel-2QD9_O a[href*="/channels/@me/"] .name-2WpE7M {
+	display: none;
+}
+
+.channel-2QD9_O[style="height: 42px; opacity: 1;"] {
+	display: inline-block;
+	//margin: 0px 4px 0px 4px;
+	width: calc((100% / 4));
+}
+
+.channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 {
+	margin: 0;
+}
+
+.channel-2QD9_O[style="height: 42px; opacity: 1;"]:hover .close-3hZ5Ni {
+	margin-left: 4px;
+}
+
+/*for temporarily hiding user avatars*/
+.channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small {
+	//background: #fff;
+	//background-image: none !important;
+}
