@@ -13,3 +13,7 @@
 # Hide Library and Store
 
 <div>Discord user clragon (179608420809310208) asked for a way to hide the Library and Store tabs from the Home menu, at the time this was using the DiscordExperiments plugin but should work when it releases.</div>
+
+# Collapsed Direct Messages
+
+<div>Discord user Meonrec had a misunderstanding of what Collapsed Link Buttons, thinking it effected user DMs. This makes DMs smaller and removes the text referring to usernames and what they are doing.</div>
