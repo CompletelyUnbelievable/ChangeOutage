@@ -23,8 +23,23 @@
 	margin-left: 4px;
 }
 
-/*for temporarily hiding user avatars*/
+.channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small:hover::before {
+	content: var(--CDMUsername, "Error");
+	margin: 2.5px auto auto 35px;
+	background: #000;
+	font-size: 12px;
+	padding: 4px 4px 4px 4px;
+	border-radius: 10px;
+	transition: all 0.5s ease;
+	position: fixed;
+	z-index: 999;
+	white-space: nowrap;
+}
+
+/*for temporarily hiding user avatars and for hovering to show name.*/
 .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small {
+	--CDMUsername: attr(user);
+	transition: all 0.5s ease;
 	//background: #fff;
 	//background-image: none !important;
 }
