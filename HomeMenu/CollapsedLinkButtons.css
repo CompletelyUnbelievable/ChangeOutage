@@ -20,3 +20,9 @@
 	width: 100%;
 	height: 100%;	
 }
+
+.channel-2QD9_O a:not([href*="/channels/@me/"]) .wrapper-232cHJ {
+	position: absolute;
+	right: 3px;
+	bottom: 6px;
+}
