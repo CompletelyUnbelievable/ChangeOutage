@@ -21,8 +21,15 @@
 	height: 100%;	
 }
 
+.channel-2QD9_O a:not([href*="/channels/@me/"]) .downloadProgressCircle-3_wgim {
+	bottom: 2px;
+}
+
 .channel-2QD9_O a:not([href*="/channels/@me/"]) .wrapper-232cHJ {
+	bottom: 6px;
+}
+
+.channel-2QD9_O a:not([href*="/channels/@me/"]) .wrapper-232cHJ, .channel-2QD9_O a:not([href*="/channels/@me/"]) .downloadProgressCircle-3_wgim {
 	position: absolute;
 	right: 3px;
-	bottom: 6px;
 }
