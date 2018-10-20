@@ -1,29 +1,33 @@
-.channel-2QD9_O a[href*="/channels/@me/"] {
+.privateChannels-1nO12o .scroller-2FKFPG {
+	text-align: center;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O a[href*="/channels/@me/"] {
 	padding: 8px 8px 8px 8px;
 	margin: 0;
 	width: 100%;
 	height: 100%;
 }
 
-.channel-2QD9_O a[href*="/channels/@me/"] .name-2WpE7M {
+.privateChannels-1nO12o .channel-2QD9_O a[href*="/channels/@me/"] .name-2WpE7M {
 	display: none;
 }
 
-.channel-2QD9_O[style="height: 42px; opacity: 1;"] {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] {
 	display: inline-block;
-	//margin: 0px 4px 0px 4px;
-	width: calc((100% / 4));
+	margin: 0px 4px 0px 4px;
+	width: 54px /*Essentially calc((100% / 4) - 4px);*/
 }
 
-.channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 {
 	margin: 0;
 }
 
-.channel-2QD9_O[style="height: 42px; opacity: 1;"]:hover .close-3hZ5Ni {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"]:hover .close-3hZ5Ni {
 	margin-left: 4px;
 }
 
-.channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small:hover::before {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small:hover::before {
 	content: var(--CDMUsername, "Error");
 	margin: 2.5px auto auto 35px;
 	background: #000;
@@ -36,9 +40,16 @@
 	white-space: nowrap;
 }
 
-/*for temporarily hiding user avatars and for hovering to show name.*/
-.channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small[user] {
 	--CDMUsername: attr(user);
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small[channel] {
+	--CDMUsername: attr(channel);
+}
+
+/*for temporarily hiding user avatars and for hovering to show name.*/
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small {
 	transition: all 0.5s ease;
 	//background: #fff;
 	//background-image: none !important;
