@@ -25,12 +25,20 @@
 	height: 100%;	
 }
 
+/*On store, download percentage container.*/
 .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) .downloadProgressCircle-3_wgim {
 	bottom: 2px;
 }
 
+/*Friend request (and other) wrapper.*/
 .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) .wrapper-232cHJ {
 	bottom: 6px;
+}
+
+/*'New' store item wrapper.*/
+.privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) .wrapper-232cHJ[style*='background-color: '] {
+	bottom: 0;
+	right: 5.5px;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) .wrapper-232cHJ, .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) .downloadProgressCircle-3_wgim {
