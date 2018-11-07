@@ -1,4 +1,4 @@
-/*For changing the color of the SVG images*/
+/*For changing the color of the SVG images.*/
 .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) svg path:first-of-type {
     fill: white;
 }
@@ -8,6 +8,7 @@
 	display: none;
 }
 
+/*from here on it is positioning and sizing.*/
 .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) {
 	padding: 8px 8px 8px 8px;
 	margin: 0;
