@@ -3,6 +3,7 @@
     fill: white;
 }
 
+/*removes the names of the tabs, could have set it to font-size 0px but that does not matter.*/
 .privateChannels-1nO12o .channel-2QD9_O a:not([href*="/channels/@me/"]) .name-2WpE7M {
 	display: none;
 }
