@@ -1,0 +1,24 @@
+.container-1YxwTf .wrapper-35wsBm.userSelectNone-Iy6XEP {
+	display: none;
+}
+
+.markup-2BOw-j a[href*='https://discord.gg/'] {
+	font-size: 0;
+}
+
+.markup-2BOw-j a[href*='https://discord.gg/']:link {
+	color: #dcddde;
+	text-decoration: none;
+	cursor: default;
+}
+
+.markup-2BOw-j a[href*='https://discord.gg/']::before {
+	content: 'Discord invite link removed.';
+	color: inherit;
+	font-size: 0.9375rem;
+}
+
+/*optional*/
+.guildsAdd-21_IdK {
+	display: none;
+}
