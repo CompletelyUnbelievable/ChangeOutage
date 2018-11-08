@@ -18,7 +18,7 @@
 	font-size: 0.9375rem;
 }
 
-/*optional*/
+/*This is optional, allows you to remove the guild add button from the guilds area.*/
 .guildsAdd-21_IdK {
 	display: none;
 }
