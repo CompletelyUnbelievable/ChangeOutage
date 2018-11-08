@@ -1,1 +1,8 @@
-tbd
+.container-1YxwTf .wrapper-35wsBm.userSelectNone-Iy6XEP, .markup-2BOw-j a[href*='https://discord.gg/'] {
+	display: none;
+}
+
+/*This is optional, allows you to remove the guild add button from the guilds area.*/
+.guildsAdd-21_IdK {
+	display: none;
+}
