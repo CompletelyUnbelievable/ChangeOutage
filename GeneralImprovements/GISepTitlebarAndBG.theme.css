@@ -1,60 +1,23 @@
-//META{"name":"GISepTitlebarAndBG","description":"Allows for seperate titlebar background colors and seperate background images for the light and dark themes.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource/edit/master/GeneralImprovements","website":"https://git.io/vhWjm"}*//
-@import url("https://completelyunbelievable.github.io/TransparencyQuick/Import/TransparencyQuick.css");
+//META{"name":"GISepTitlebarAndBG","description":"Allows for seperate titlebar background colors and seperate background images for the light and dark themes.","author":"CompletelyUnbelievable","version":"1.1","source":"https://github.com/CompletelyUnbelievable/ThemeResource/edit/master/GeneralImprovements","website":"https://git.io/vhWjm"}*//
+@import url("https://completelyunbelievable.github.io/BDAddons/Themes/TransparencyQuick/Import/TransparencyQuick.css");
+@import url("https://completelyunbelievable.github.io/BDAddons/Themes/TransparencyQuick/Import/Builder/Legacy.css");
 
 
+/*
+My Transparency Quick theme has a variation of content improvements and Titlebar fix from my ThemeResource. See both of those snippets with the links below or mess around with what it offers by changing the CSS variables below:
 
-/*I made these variables so that this is easily to fiddle with.*/
+https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/GeneralImprovements/ContentImprovements.theme.css
+
+https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/Titlebar/TitlebarFix.theme.css
+*/
+
 :root {
-	--DarkBackground: url("https://i.imgur.com/PnSeZX3r.jpg");
-	--LightBackground: url("https://i.imgur.com/QguApMA.jpg");
-	--DarkTitlebarColor: #333333;
-	--LightTitlebarColor: #000000;
-	--FallbackColor: #000000;
-	--BackgroundFill: cover;
-}
-
-/*There is no real need to modify anything below if you are just trying to fiddle with it, but explainations will be provided anyways.*/
-
-
-
-
-/*Fixes the sizing of the titlebar as well as sets it's background color transparent so we can change the background color with dark/light theme selectors.*/
-.da-appMount .da-titleBar {
-	padding-top: 4px;
-	margin-top: 0px;
-	background-color: transparent;
-}
-
-/*Allows background images to extend behind the titlebar and sets up declarations for the background images*/
-.app {
-	margin-top: -22px;
-	background-repeat: no-repeat;
-}
-
-/*Allows background images to extend behind the titlebar.*/
-.app::before {
-	content: '';
-	padding-top: 22px;
-}
-
-/*Sets the background color of the titlebar in dark theme.*/
-.app.theme-dark::before {
-	background: var(--DarkTitlebarColor, var(--FallbackColor, transparent));
-}
-
-/*Sets the background color of the titlebar in light theme.*/
-.app.theme-light::before {
-	background: var(--LightTitlebarColor, var(--FallbackColor, transparent));
-}
-
-/*Sets the background image of the discord window in dark theme.*/
-.app.theme-dark {
-	background: var(--DarkBackground, var(--FallbackColor, transparent));
-	background-size: var(--BackgroundFill, 100% 100%);
-}
-
-/*Sets the background image of the discord window in light theme.*/
-.app.theme-light {
-	background: var(--LightBackground, var(--FallbackColor, transparent));
-	background-size: var(--BackgroundFill, 100% 100%);
+	--TQDarkBackground: url("https://i.imgur.com/PnSeZX3r.jpg");
+	--TQLightBackground: url("https://i.imgur.com/QguApMA.jpg");
+	--TQDarkTitlebarColor: #333333;
+	--TQLightTitlebarColor: #000000;
+	--TQFallbackColor: #000000;
+	--TQBackgroundFill: cover;
+	--TQdim: rgba(79,84,92,0.5);
+	--TQcardDim: rgba(79,84,92,0.5); 
 }
