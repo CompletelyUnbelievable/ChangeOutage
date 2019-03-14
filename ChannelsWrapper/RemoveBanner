@@ -1,9 +1,13 @@
-#app-mount .channels-Ie2l6A .banner-1TiK82 {
+.scroller-2wx7Hm.pinnedBanner-fd4XS4 {
+    padding: 0px;
+}
+
+#app-mount .channels-Ie2l6A .banner-1TiK82:not(.pinnedBanner-31szAF) {
 	background-image: none !important;
 	height: 48px;
 }
 
-#app-mount .channels-Ie2l6A .banner-1TiK82:hover {
+#app-mount .channels-Ie2l6A .banner-1TiK82:not(.pinnedBanner-31szAF):hover {
 	background-color: rgba(0,0,0,.1);
 	-webkit-transition: background-color .15s ease;
 	transition: background-color .15s ease;
