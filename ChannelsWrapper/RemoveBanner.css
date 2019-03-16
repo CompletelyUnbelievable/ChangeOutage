@@ -1,14 +1,18 @@
-.scroller-2wx7Hm.pinnedBanner-fd4XS4 {
-    padding: 0px;
+#app-mount .channels-Ie2l6A .bannerImage-1jOskm, #app-mount .da-channels .da-bannerImage {
+	background-image:none!important;
+	height:48px;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+	-webkit-box-sizing:border-box;
+	-webkit-transition:background-color .15s ease;
+	box-shadow:0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
 }
 
-#app-mount .channels-Ie2l6A .banner-1TiK82:not(.pinnedBanner-31szAF) {
-	background-image: none !important;
-	height: 48px;
+#app-mount .channels-Ie2l6A .container-2Rl01u:hover .bannerImage-1jOskm, #app-mount .da-channels .container-2Rl01u:hover .da-bannerImage {
+	background-color:rgba(0,0,0,.1);
+	-webkit-transition:background-color .15s ease;
+	transition:background-color .15s ease;
 }
 
-#app-mount .channels-Ie2l6A .banner-1TiK82:not(.pinnedBanner-31szAF):hover {
-	background-color: rgba(0,0,0,.1);
-	-webkit-transition: background-color .15s ease;
-	transition: background-color .15s ease;
+#app-mount .channels-Ie2l6A .scrollerWrap-2lJEkd .scroller-2FKFPG > div:first-of-type:not([class*="container"]), #app-mount .da-channels .da-scrollerWrap .da-scroller > div:first-of-type:not([class*="container"]) {
+    height:0!important;
 }
