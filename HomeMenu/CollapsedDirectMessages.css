@@ -23,7 +23,7 @@
 	margin-left: 4px;
 }
 
-.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small:hover::before {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .da-inner:hover::before {
 	content: var(--CDMUsername, "Error");
 	margin: 2.5px auto auto 35px;
 	background: #000;
@@ -36,16 +36,16 @@
 	white-space: nowrap;
 }
 
-.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small[user] {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .da-inner[user] {
 	--CDMUsername: attr(user);
 }
 
-.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small[channel] {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .da-inner[channel] {
 	--CDMUsername: attr(channel);
 }
 
 /*for temporarily hiding user avatars and for hovering to show name.*/
-.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small {
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .da-inner {
 	transition: all 0.5s ease;
 	//background: #fff;
 	//background-image: none !important;
