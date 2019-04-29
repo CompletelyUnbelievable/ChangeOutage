@@ -1,1 +1,21 @@
+//META{"name":"RemoveDiscoveryAddOutage","description":"Removes The guild discovery, guild add, and guild outage buttons as best it can.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource/blob/master/GuildsBar/RemoveDiscoveryAddOutage.theme.css","website":"https://git.io/vhWjm"}*//
 
+/*Removes GuildDiscovery and GuildAdd.*/
+.wrapper-1Rf91z .listItem-2P_4kh>.circleButtonMask-2VNJsN{
+	display:none;
+}
+
+/*Makes it so that pills offscreen have no height, so they wont take up space.*/
+.wrapper-1Rf91z .listItem-2P_4kh>.pill-3YxEhL>.item-2hkk8m[style*="translate3d(-4px, 0px, 0px)"i],.wrapper-1Rf91z .listItem-2P_4kh>.pill-3YxEhL>.item-2hkk8m[style*="translate3d(-4px,0px,0px)"i]{
+	height:0!important;
+}
+
+/*makes it so that the pills wont take up space if they have no set height.*/
+.wrapper-1Rf91z .listItem-2P_4kh>.pill-3YxEhL{
+	height:100%;
+}
+
+/*Removes outages.*/
+.wrapper-1Rf91z .listItem-2P_4kh>.guildsError-b7zR5H{
+	display:none;
+}
