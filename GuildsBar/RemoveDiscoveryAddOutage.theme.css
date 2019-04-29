@@ -19,3 +19,8 @@
 .wrapper-1Rf91z .listItem-2P_4kh>.guildsError-b7zR5H{
 	display:none;
 }
+
+/*The guilds have a margin issue, where there is a 8-24px gap on the guild wrapper due to the removal of discovery/add/outage. I don't think there is a good way to go about fixing that issue.*//*
+.wrapper-1Rf91z .listItem-2P_4kh{
+	margin:0;
+}*/
