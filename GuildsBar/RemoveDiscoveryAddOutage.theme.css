@@ -7,12 +7,12 @@
 
 /*Makes it so that pills offscreen have no height, so they wont take up space.*/
 .wrapper-1Rf91z .listItem-2P_4kh>.pill-3YxEhL>.item-2hkk8m[style*="translate3d(-4px, 0px, 0px)"i],.wrapper-1Rf91z .listItem-2P_4kh>.pill-3YxEhL>.item-2hkk8m[style*="translate3d(-4px,0px,0px)"i]{
-	height:0!important;
+	display:none;
 }
 
 /*makes it so that the pills wont take up space if they have no set height.*/
 .wrapper-1Rf91z .listItem-2P_4kh>.pill-3YxEhL{
-	height:100%;
+	height:auto;
 }
 
 /*Removes outages.*/
@@ -20,7 +20,13 @@
 	display:none;
 }
 
-/*The guilds have a margin issue, where there is a 8-24px gap on the guild wrapper due to the removal of discovery/add/outage. I don't think there is a good way to go about fixing that issue.*//*
-.wrapper-1Rf91z .listItem-2P_4kh{
+/*Fixes guild margin issue by moving the margin to the guild icon area itself. Not the read all plugin and not the home button.*/
+.wrapper-1Rf91z .listItem-2P_4kh:not(.RANbutton-frame):not(#RANbutton-frame):not(:nth-child(1)){
+	height:auto;
 	margin:0;
-}*/
+}
+
+/*uses the same margin as the one on ListItem.*/
+.wrapper-1Rf91z .listItem-2P_4kh>.blobContainer-239gwq,.wrapper-1Rf91z .listItem-2P_4kh>.guildSeparator-3s64Iy{
+	margin:0 0 8px;
+}
