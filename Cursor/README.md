@@ -4,7 +4,7 @@
 <ul>
 <li>The images recommended resolution is 36px by 36px. From what I've checked it can go up to 128px by 128px, which I assume is the limit.</li>
 <li>The file formats must be one of these: PNG, GIF, JPG, BMP, and CUR. Mileage may vary for other formats.</li>
-<li>If the cursor image is animated then it will only show the first frame. See <i>animated cursors with css animations</i> as a potential solution below.</li>
+<li>If the cursor image is animated then it will only show the first frame. See the <i>Example Animated Cursor</i> as a potential solution.</li>
 <li>When specifying a url for the cursor there must be a backup cursor set.</li>
 </ul>
 </div>
