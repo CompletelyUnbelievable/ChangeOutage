@@ -1,0 +1,18 @@
+@keyframes cursoranimation{
+	0%{cursor:url(https://i.imgur.com/7pgkCKi.png),auto;}
+	10%{cursor:url(https://i.imgur.com/m8J2htp.png),auto;}
+	20%{cursor:url(https://i.imgur.com/Ua78G33.png),auto;}
+	30%{cursor:url(https://i.imgur.com/eSB6pJ0.png),auto;}
+	40%{cursor:url(https://i.imgur.com/r8oZhC6.png),auto;}
+	50%{cursor:url(https://i.imgur.com/3rRXGnj.png),auto;}
+	60%{cursor:url(https://i.imgur.com/AawKHj5.png),auto;}
+	70%{cursor:url(https://i.imgur.com/rFRzZmE.png),auto;}
+	80%{cursor:url(https://i.imgur.com/rz8DlFM.png),auto;}
+	90%{cursor:url(https://i.imgur.com/VwZeQxx.png),auto;}
+	100%{cursor:url(https://i.imgur.com/7pgkCKi.png),auto;}
+}
+
+:root{
+	/*cursor:url(https://static.getjar.com/icon-50x50/0b/437163_thm.png)8,auto;*/
+	animation:cursoranimation 1s infinite;
+}
