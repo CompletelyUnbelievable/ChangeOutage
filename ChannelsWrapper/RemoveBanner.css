@@ -14,5 +14,5 @@
 }
 
 #app-mount .channels-Ie2l6A .scrollerWrap-2lJEkd .scroller-2FKFPG > div:first-of-type[style*="height: 78px"]:not([class*="container"]), #app-mount .da-channels .da-scrollerWrap .da-scroller > div:first-of-type[style*="height: 78px"]:not([class*="container"]) {
-    height:0!important;
+	height:0!important;
 }
