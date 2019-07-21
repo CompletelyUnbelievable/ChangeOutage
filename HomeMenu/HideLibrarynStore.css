@@ -1,3 +1,7 @@
+.channel-2QD9_O:not([style]){
+	height:auto;
+}
+
 .channel-2QD9_O a[href="/library"], .channel-2QD9_O a[href="/store"] {
 	display: none;
 }
