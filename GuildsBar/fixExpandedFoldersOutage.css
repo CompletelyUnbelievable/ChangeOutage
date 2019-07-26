@@ -1,0 +1,4 @@
+/*Folders containing guilds with an outage will not show but the height of the folder will be the same as if they were there.*/
+.wrapper-21YSNc>.expandedGuilds-1JMD4M{
+	height:auto!important;
+}
