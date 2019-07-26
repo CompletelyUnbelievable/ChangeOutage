@@ -24,8 +24,11 @@
 	--GHIBorderRadius:50px;
 }
 
+.wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1)>.pill-2uzAFe.bd-selected+div .button-OhfaWu{
+	border-radius:15px;
+	-webkit-border-radius:15px;
+}
 
-/*Below should not need to be modified.*/
 .wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1) .button-OhfaWu>svg{
 	width:100%;
 	height:100%;
