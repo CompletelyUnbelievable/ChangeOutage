@@ -1,7 +1,7 @@
-//META{"name":"ReplaceHomeButton","description":"Allows easy replacement for the background of the home button.","author":"CompletelyUnbelievable","version":"1.0","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+//META{"name":"ReplaceHomeButton","description":"Allows easy replacement for the background of the home button.","author":"CompletelyUnbelievable","version":"1.1","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
 /*For replacing the background, just replace the url in-between the parenthesis. If you are using a rather solid image, not an icon as in this example, then the background-size property will need to be changed to something else.*/
-.da-appMount .da-guildsWrapper .da-guilds .da-homeIcon {
+.wrapper-3NnKdC .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
 	background-image: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/BDLogo.png);
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
@@ -9,17 +9,17 @@
 }
 
 /*Hides the discord svg image from the home button, this could be used to recolor it as well.*/
-.da-appMount .da-guildInner .da-homeIcon g > use {
-	fill: transparent;
+.wrapper-3NnKdC .tutorialContainer-2sGCg9 .homeIcon-FuNwkv path{
+	d:path('');
 }
 
-/*Changes the color of the home button on hover, requires importance.*/
-.da-guilds > div:nth-child(1) > .da-guildInner:hover {
+/*Changes the color of the home button on hover and selected, requires importance.*/
+.wrapper-3NnKdC .tutorialContainer-2sGCg9 .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-3NnKdC .tutorialContainer-2sGCg9 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
 	transition: background-color 0.5s ease; /* "0.5s" changes how fast the background color changes when hovered in seconds.*/
-	background-color: rgb(113, 54, 138) !important;
+	background-color: rgb(113, 54, 138);
 }
 
 /*Sets the initial color to override the JS color transition, requires importance. Unless you are changing the origional background color then this does not need to be changed.*/
-.da-guilds > div:nth-child(1) > .da-guildInner {
+/*.da-guilds > div:nth-child(1) > .da-guildInner {
 	background-color: rgb(47, 49, 54) !important;
-}
+}*/
