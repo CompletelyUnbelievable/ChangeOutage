@@ -1,4 +1,4 @@
-//META{"name":"GradientHomeIcon","description":"Changes the home button logo into a linear gradient.","author":"CompletelyUnbelievable","version":"1.2","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
+//META{"name":"GradientHomeIcon","description":"Changes the home button logo into a linear gradient.","author":"CompletelyUnbelievable","version":"1.3","source":"https://github.com/CompletelyUnbelievable/ThemeResource","website":"https://git.io/vhWjm"}*//
 
 :root {
 	--GHImask: url(https://raw.githubusercontent.com/CompletelyUnbelievable/ThemeResource/master/GuildsBar/Images/Moving_Discord_Logo.gif) no-repeat 50% 50%;
@@ -24,12 +24,13 @@
 	--GHIBorderRadius:50px;
 }
 
-.wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1)>.pill-2uzAFe.bd-selected+div .button-OhfaWu{
+.wrapper-3NnKdC .tutorialContainer-2sGCg9 .childWrapper-anI2G9{
 	border-radius:15px;
 	-webkit-border-radius:15px;
 }
 
-.wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1) .button-OhfaWu>svg{
+.wrapper-3NnKdC .tutorialContainer-2sGCg9 .wrapper-1BJsBx::after{
+	content: '';
 	width:100%;
 	height:100%;
 	position:absolute;
@@ -42,16 +43,7 @@
 	left:0;
 }
 
-.wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1) .button-OhfaWu{
-	border-radius:var(--GHIBorderRadius,50px);
-	-webkit-border-radius:var(--GHIBorderRadius,50px);
-}
-
-.wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1) svg>foreignObject{
-	mask:none;
-}
-
-.wrapper-1Rf91z div:not(.expandedGuilds-1JMD4M)>.listItem-2P_4kh:nth-child(1) svg path{
+.wrapper-3NnKdC .tutorialContainer-2sGCg9 .childWrapper-anI2G9 path{
 	d:path('');
 }
 
